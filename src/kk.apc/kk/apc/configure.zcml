@@ -12,7 +12,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Androschin & Partner Diazo Plone Theme"
+      title="Androschin and Partner Diazo Plone Theme"
       directory="profiles/default"
       description="Installs the kk.apc package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
