@@ -54,8 +54,8 @@ def get_data():
 @task
 def bootstrap(site=None):
     """ Bootstrap project on target server """
-    run('/opt/buildout.python/bin/virtualenv-2.7 /opt/sites/%s' % (env.sitename))
-    with cd('/opt/sites/%s' % (env.sitename)):
+    with cd('/opt/sites'):
+        setup.generate_virtualenv(sitename='%s' % (env.sitename))
         run('git clone git@github.com:kreativkombinat/apc.git buildout.apc')
         run('cd buildout.apc; ../bin/python bootstrap.py -c deployment.cfg')
         run('cd buildout.apc; bin/buildout -c deployment.cfg')
