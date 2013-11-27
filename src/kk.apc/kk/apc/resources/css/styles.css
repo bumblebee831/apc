@@ -7197,6 +7197,12 @@ h6,
   background: #663333 !important;
   border-bottom: 0.5em solid #663333 !important;
 }
+#portal-languageselector {
+  border: 0px solid red;
+}
+#portal-languageselector li {
+  display: inline-block;
+}
 .tileItem {
   background: none repeat scroll 0 0 #EFEFEF;
   border: 1px solid #EFEFEF;
