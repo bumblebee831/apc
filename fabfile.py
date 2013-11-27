@@ -16,7 +16,7 @@ env.user = 'root'
 env.hosts = ['z2']
 env.webserver = '/opt/webserver/buildout.webserver'
 env.code_root = '/opt/sites/apc/buildout.apc'
-env.local_root = '/Users/sd/dev/apc/buildout.apc'
+env.local_root = '/Users/cb/dev/apc/buildout.apc'
 env.sitename = 'apc'
 env.code_user = 'root'
 env.prod_user = 'www'
@@ -49,3 +49,13 @@ def rebuild():
 def get_data():
     """ Copy live database for local development """
     project.db.download_data()
+
+
+@task
+def bootstrap(site=None):
+    """ Bootstrap project on target server """
+    run('/opt/buildout.python/bin/virtualenv-2.7 /opt/sites/%s' % (env.sitename))
+    with cd('/opt/sites/%s' % (env.sitename)):
+        run('git clone git@github.com:kreativkombinat/apc.git buildout.apc')
+        run('cd buildout.apc; ../bin/python bootstrap.py -c deployment.cfg')
+        run('cd buildout.apc; bin/buildout -c deployment.cfg')
