@@ -7072,9 +7072,6 @@ h6,
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e6e7', endColorstr='#939393', GradientType=0);
   /* IE6-9 */
 }
-.wrapper .brandbar-brand {
-  border: 0px solid red;
-}
 .leadImage {
   margin-top: -44px;
   margin-left: -28.6px;
@@ -7316,7 +7313,7 @@ input.searchPage {
   }
   .app-content {
     width: 100%;
-    background: transparent;
+    background: white;
     float: left;
     padding: 0;
   }
@@ -7364,9 +7361,6 @@ input.searchPage {
     width: 100%;
     background: transparent;
   }
-  .navbar #main-nav ul {
-    float: right;
-  }
   .navbar #main-nav .selected a {
     color: black;
     text-shadow: none;
@@ -7386,6 +7380,7 @@ input.searchPage {
     padding: 0 !important;
     text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
     font-weight: bold;
+    background: none;
   }
   .navbar #main-nav a:hover {
     color: black;
@@ -7398,8 +7393,12 @@ input.searchPage {
   .actions {
     display: none;
   }
-  .carousel {
-    display: none !important;
+  .leadImage {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .leadImage .topImage {
+    max-width: 100% !important;
   }
   #portal-breadcrumbs {
     font-size: 19.2px !important;

@@ -62,7 +62,7 @@
 
 .app-content {
     width: 100%;
-    background: transparent;
+    background: white;
     float:left;
     padding: 0;
 
@@ -122,7 +122,7 @@
         background: transparent;
 
         ul {
-          float: right;
+
         }
 
 
@@ -147,6 +147,7 @@
             padding: 0 !important;
             text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
             font-weight: bold;
+            background: none;
         }
 
         a:hover {
@@ -168,10 +169,14 @@
 }
 
 
-.carousel {
-  display: none !important;
-}
+.leadImage {
+  margin-top: 0;
+  margin-left: 0;
 
+  .topImage {
+    max-width: 100% !important;
+  } 
+}
 
 #portal-breadcrumbs {
   font-size: @font-size-base * 1.2 !important;
