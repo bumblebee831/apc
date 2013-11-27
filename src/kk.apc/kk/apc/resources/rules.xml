@@ -40,6 +40,9 @@
             <link rel="shortcut icon" href="/++theme++kk.apc/img/favicon.ico" type="images/x-icon" />
         </after>
 
+        <after theme="/html/body"
+               content="//div[@data-iframe='plone-toolbar']" />
+
         <!-- Copy over the id/class attributes on the body tag.
              This is important for per-section styling -->
         <merge attributes="class" css:content="body" css:theme="body" />
