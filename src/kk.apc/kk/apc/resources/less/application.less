@@ -203,6 +203,36 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
   }
 
+@-moz-keyframes dimIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@-moz-keyframes dimIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+.dim-in {
+    animation: 1s ease-in 0s normal forwards 1 dimIn;
+    opacity: 0;
+}
+.dim-in.one {
+    animation-delay: 0.5s;
+}
+.dim-in.two {
+    animation-delay: 1.2s;
+}
+.dim-in.three {
+    animation-delay: 1.6s;
+}
+
   .documentFirstHeading {
     font-size: @font-size-large;
     margin-bottom: @line-height-computed;

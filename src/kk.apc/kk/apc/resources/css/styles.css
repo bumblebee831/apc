@@ -7165,6 +7165,35 @@ h6,
 .app-content #app-col-content {
   padding: 22px;
 }
+@-moz-keyframes dimIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes dimIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.app-content .dim-in {
+  animation: 1s ease-in 0s normal forwards 1 dimIn;
+  opacity: 0;
+}
+.app-content .dim-in.one {
+  animation-delay: 0.5s;
+}
+.app-content .dim-in.two {
+  animation-delay: 1.2s;
+}
+.app-content .dim-in.three {
+  animation-delay: 1.6s;
+}
 .app-content .documentFirstHeading {
   font-size: 20px;
   margin-bottom: 22px;
