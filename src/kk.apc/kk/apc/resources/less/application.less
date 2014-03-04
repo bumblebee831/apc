@@ -12,6 +12,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0;
+  max-width: 920px;
 }
 
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .leadImage {
   margin-top: -@line-height-computed * 2;
-  margin-left: -@line-height-computed * 1.3;
+  margin-left: -25px;
 }
 
 
@@ -99,10 +100,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 100%;
     background: @brand-primary;
 
-    ul {
-
-    }
-
     .selected a {
       color: white;
       text-shadow: none;
@@ -111,14 +108,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     li {
       text-align: center;
       display: inline-block;
-      border-radius: @border-radius-base @border-radius-base 0 0;
     }
 
     a {
       color: #C3DBE5;
       font-weight: normal;
       text-transform: uppercase;
-      font-size: @font-size-base - 2;
+      font-size: @font-size-base;
       padding: 0 @line-height-computed / 2;
       text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
       font-weight: bold;
@@ -129,10 +125,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       color: white !important;
       text-shadow: none;
       text-decoration: none;
-    }
-
-    #portaltab-sprachpraxis-level1 a {
-      border: none !important;
     }
 
 
@@ -202,36 +194,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: @line-height-computed;
 
   }
-
-@-moz-keyframes dimIn {
-0% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
-}
-@-moz-keyframes dimIn {
-0% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
-}
-.dim-in {
-    animation: 1s ease-in 0s normal forwards 1 dimIn;
-    opacity: 0;
-}
-.dim-in.one {
-    animation-delay: 0.5s;
-}
-.dim-in.two {
-    animation-delay: 1.2s;
-}
-.dim-in.three {
-    animation-delay: 1.6s;
-}
 
   .documentFirstHeading {
     font-size: @font-size-large;
@@ -331,8 +293,7 @@ input.searchPage {
 
 
 #app-col-sidebar {
-  border: 1px solid @brand-success;
-  padding: @line-height-computed @line-height-computed * 2;
+  padding: 0;
   background: transparent;
 } 
 

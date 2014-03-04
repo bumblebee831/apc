@@ -266,7 +266,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #cccaca;
@@ -308,17 +308,17 @@ img {
   border-radius: 500px;
 }
 hr {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
 p {
-  margin: 0 0 11px;
+  margin: 0 0 10px;
 }
 .lead {
-  margin-bottom: 22px;
-  font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 1.4;
 }
@@ -400,62 +400,62 @@ h6 small,
 h1,
 h2,
 h3 {
-  margin-top: 22px;
-  margin-bottom: 11px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h4,
 h5,
 h6 {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 h1,
 .h1 {
-  font-size: 44px;
+  font-size: 38px;
 }
 h2,
 .h2 {
-  font-size: 36px;
+  font-size: 32px;
 }
 h3,
 .h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 14px;
 }
 h6,
 .h6 {
-  font-size: 14px;
+  font-size: 12px;
 }
 h1 small,
 .h1 small {
-  font-size: 28px;
+  font-size: 24px;
 }
 h2 small,
 .h2 small {
-  font-size: 20px;
+  font-size: 18px;
 }
 h3 small,
 .h3 small,
 h4 small,
 .h4 small {
-  font-size: 16px;
+  font-size: 14px;
 }
 .page-header {
-  padding-bottom: 10px;
-  margin: 44px 0 22px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -477,7 +477,7 @@ ol ol {
   padding-right: 5px;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 dt,
 dd {
@@ -531,12 +531,12 @@ abbr.initialism {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 11px 22px;
-  margin: 0 0 22px;
+  padding: 10px 20px;
+  margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
-  font-size: 20px;
+  font-size: 17.5px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -576,7 +576,7 @@ blockquote:after {
 }
 address {
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   font-style: normal;
   line-height: 1.428571429;
 }
@@ -594,9 +594,9 @@ code {
 }
 pre {
   display: block;
-  padding: 10.5px;
-  margin: 0 0 11px;
-  font-size: 15px;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
@@ -607,7 +607,7 @@ pre {
   border-radius: 4px;
 }
 pre.prettyprint {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 pre code {
   padding: 0;
@@ -988,7 +988,7 @@ th {
 }
 .table {
   width: 100%;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .table thead > tr > th,
 .table tbody > tr > th,
@@ -1107,8 +1107,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 22px;
-  font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 21px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -1136,9 +1136,9 @@ input[type="search"],
 input[type="tel"],
 input[type="color"] {
   display: block;
-  height: 40px;
+  height: 38px;
   padding: 8px 12px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
@@ -1293,7 +1293,7 @@ textarea::-webkit-input-placeholder {
 .radio,
 .checkbox {
   display: block;
-  min-height: 22px;
+  min-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -1347,9 +1347,9 @@ input[type="url"].input-large,
 input[type="search"].input-large,
 input[type="tel"].input-large,
 input[type="color"].input-large {
-  height: 59px;
+  height: 56px;
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 6px;
 }
 select.input-small,
@@ -1368,18 +1368,18 @@ input[type="url"].input-small,
 input[type="search"].input-small,
 input[type="tel"].input-small,
 input[type="color"].input-small {
-  height: 33px;
+  height: 30px;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 3px;
 }
 select.input-large {
-  height: 59px;
-  line-height: 59px;
+  height: 56px;
+  line-height: 56px;
 }
 select.input-small {
-  height: 33px;
-  line-height: 33px;
+  height: 30px;
+  line-height: 30px;
 }
 .has-warning .help-block,
 .has-warning .control-label {
@@ -1482,7 +1482,7 @@ select.input-small {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 8px 12px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
@@ -1493,12 +1493,12 @@ select.input-small {
 }
 .input-group-addon.input-small {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 3px;
 }
 .input-group-addon.input-large {
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 6px;
 }
 .input-group input:first-child,
@@ -1564,7 +1564,7 @@ select.input-small {
   display: inline-block;
   padding: 8px 12px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.428571429;
   text-align: center;
@@ -1817,12 +1817,12 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-large {
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 6px;
 }
 .btn-small {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -1894,7 +1894,7 @@ input[type="button"].btn-block {
 }
 .dropdown-menu .divider {
   height: 2px;
-  margin: 10px 0;
+  margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -1956,7 +1956,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.428571429;
   color: #999999;
 }
@@ -2052,7 +2052,7 @@ a.list-group-item.active .list-group-item-text {
 .panel-heading {
   margin: -15px -15px 15px;
   padding: 10px 15px;
-  font-size: 20px;
+  font-size: 17.5px;
   font-weight: 500;
   background-color: #f5f5f5;
   border-bottom: 1px solid #dddddd;
@@ -2144,7 +2144,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .close {
   float: right;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -2237,7 +2237,7 @@ button.close {
 }
 .nav .nav-divider {
   height: 2px;
-  margin: 10px 0;
+  margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -2394,8 +2394,8 @@ button.close {
   margin-bottom: 15px;
 }
 .navbar-nav > li > a {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #777777;
   line-height: 20px;
   border-radius: 4px;
@@ -2443,10 +2443,10 @@ button.close {
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 14px 15px;
-  font-size: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 20px;
   color: #777777;
   text-align: center;
 }
@@ -2482,8 +2482,8 @@ button.close {
   margin-top: 4px;
 }
 .navbar-form {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .navbar-form input,
 .navbar-form select,
@@ -2629,11 +2629,11 @@ button.close {
   }
 }
 .navbar-btn {
-  margin-top: 5px;
+  margin-top: 6px;
 }
 .navbar-text {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .navbar-link {
   color: #777777;
@@ -2792,7 +2792,7 @@ button.close {
 }
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -2811,7 +2811,7 @@ button.close {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 22px 0;
+  margin: 20px 0;
   border-radius: 4px;
 }
 .pagination > li {
@@ -2860,7 +2860,7 @@ button.close {
 .pagination-large > li > a,
 .pagination-large > li > span {
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .pagination-large > li:first-child > a,
 .pagination-large > li:first-child > span {
@@ -2875,7 +2875,7 @@ button.close {
 .pagination-small > li > a,
 .pagination-small > li > span {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .pagination-small > li:first-child > a,
 .pagination-small > li:first-child > span {
@@ -2889,7 +2889,7 @@ button.close {
 }
 .pager {
   padding-left: 0;
-  margin: 22px 0;
+  margin: 20px 0;
   list-style: none;
   text-align: center;
 }
@@ -3075,7 +3075,7 @@ button.close {
   z-index: 1030;
   display: block;
   visibility: visible;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -3203,7 +3203,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -3291,7 +3291,7 @@ button.close {
 }
 .alert {
   padding: 10px 35px 10px 15px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   color: #c09853;
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -3469,7 +3469,7 @@ a.thumbnail:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: #ffffff;
   line-height: 1;
@@ -3542,8 +3542,8 @@ a.list-group-item.active > .badge,
 }
 .progress {
   overflow: hidden;
-  height: 22px;
-  margin-bottom: 22px;
+  height: 20px;
+  margin-bottom: 20px;
   background-color: #f5f5f5;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -3553,7 +3553,7 @@ a.list-group-item.active > .badge,
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   text-align: center;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -3619,7 +3619,7 @@ a.list-group-item.active > .badge,
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .accordion {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .accordion-group {
   margin-bottom: 2px;
@@ -3814,7 +3814,7 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
@@ -3833,7 +3833,7 @@ a.list-group-item.active > .badge,
     border-radius: 6px;
   }
   .jumbotron h1 {
-    font-size: 72px;
+    font-size: 63px;
   }
 }
 .clearfix:before,
@@ -5597,7 +5597,7 @@ a .icon-flip-vertical:before {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: #ffffff;
   line-height: 1;
@@ -5740,7 +5740,7 @@ div.field span.required:after {
   color: #666;
 }
 #contentActionMenus dl.actionMenu {
-  line-height: 22px;
+  line-height: 20px;
 }
 #folderHeader,
 #contextHeader {
@@ -5863,7 +5863,7 @@ ul.formTabs {
   padding-left: 0;
   list-style: none;
   border-bottom: 1px solid #ddd;
-  margin: 0 0 11px;
+  margin: 0 0 10px;
   list-style-type: none;
 }
 ul.formTabs:before,
@@ -5931,7 +5931,7 @@ ul.formTabs > .pull-right {
 }
 ul.formTabs .nav-divider {
   height: 2px;
-  margin: 10px 0;
+  margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -5998,7 +5998,7 @@ ul.formTabs li {
 ul.formTabs li a {
   padding: 8px 12px;
   display: block;
-  line-height: 16px;
+  line-height: 14px;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
@@ -6019,7 +6019,7 @@ input.submit-widget {
   display: inline-block;
   padding: 8px 12px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.428571429;
   text-align: center;
@@ -6031,7 +6031,7 @@ input.submit-widget {
   color: #ffffff;
   background-color: #474949;
   border-color: #474949;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 input.context:focus,
 input.standalone:focus,
@@ -6247,7 +6247,7 @@ fieldset[disabled] input.context.active {
 input[type="checkbox"] + label,
 .ArchetypesBooleanWidget label {
   display: inline-block;
-  margin-left: 5.5px;
+  margin-left: 5px;
 }
 input.datetime-widget,
 select.datetime-widget,
@@ -6258,9 +6258,9 @@ select.datetime-widget,
 #content .field input[type="text"][name$=".title"],
 #form-widgets-IBasic-title,
 #archetypes-fieldname-title input {
-  height: 38.5px;
-  line-height: 33px;
-  font-size: 20px;
+  height: 35px;
+  line-height: 30px;
+  font-size: 17.5px;
   font-weight: 400;
   width: 100%;
   color: #555555;
@@ -6270,7 +6270,7 @@ select.datetime-widget,
 #form-widgets-IBasic-description,
 #archetypes-fieldname-description textarea#description {
   color: #555555;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   width: 100%;
 }
@@ -6296,7 +6296,7 @@ div.fieldTextFormat select {
   font-weight: 300;
 }
 div.field {
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 div.field label span.formHelp {
   display: block;
@@ -6306,9 +6306,9 @@ div.field label span.formHelp {
 div.field div.label {
   background: transparent;
   color: #333333;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 20px;
   padding: 0px;
   text-align: left;
 }
@@ -6327,7 +6327,7 @@ div.formHelp {
   color: #737373;
 }
 .formControls {
-  padding-top: 11px;
+  padding-top: 10px;
 }
 .fieldRequired,
 span.required {
@@ -6428,7 +6428,7 @@ div.overlay .formControls a {
 table.listing,
 table.plain {
   width: 100%;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 table.listing thead > tr > th,
 table.plain thead > tr > th,
@@ -6561,7 +6561,7 @@ table.grid th {
 }
 #category {
   font-size: 11px;
-  margin: 22px 0px;
+  margin: 20px 0px;
 }
 #category a.link-category,
 #category span.selectedTag {
@@ -6579,7 +6579,7 @@ table.grid th {
 }
 .listingBar {
   padding-left: 0;
-  margin: 22px 0;
+  margin: 20px 0;
   list-style: none;
   text-align: center;
 }
@@ -6655,7 +6655,7 @@ table.grid th {
 }
 .avatar {
   margin-right: 2px;
-  line-height: 22px;
+  line-height: 20px;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
@@ -6664,17 +6664,17 @@ table.grid th {
   transition: all 0.2s ease-in-out;
 }
 .avatar.avatar-small {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 }
 /* @group Image alignment classes */
 .image-left {
   float: left;
-  margin: 11px 22px 22px 0;
+  margin: 10px 20px 20px 0;
 }
 .image-right {
   float: right;
-  margin: 11px 0 22px 22px;
+  margin: 10px 0 20px 20px;
 }
 .image-inline {
   float: none;
@@ -6704,7 +6704,7 @@ dd.image-caption {
 .text-discreet,
 .discreet {
   color: #999999;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 1;
 }
 .text-highlight,
@@ -6713,22 +6713,22 @@ dd.image-caption {
 }
 .text-pullquote,
 .pullquote {
-  line-height: 22px;
+  line-height: 20px;
   float: right;
   width: 35%;
   clear: right;
   color: #999999;
-  line-height: 19px;
-  padding: 11px 22px;
-  margin: 22px 0 22px 22px;
+  line-height: 17px;
+  padding: 10px 20px;
+  margin: 20px 0 20px 20px;
   border-left: 5px solid #999999;
   background: #eeeeee;
 }
 .text-callout,
 .callout {
   background: #eeeeee;
-  padding: 22px;
-  margin: 0 0 22px;
+  padding: 20px;
+  margin: 0 0 20px;
   border-left: 5px solid #999999;
   clear: both;
 }
@@ -6773,7 +6773,7 @@ ul.visualNoMarker {
   font-style: normal;
 }
 .portlet {
-  margin: 0px 0px 20px 0px !important;
+  margin: 0;
   background: transparent;
   padding: 0px;
 }
@@ -6781,16 +6781,18 @@ ul.visualNoMarker {
 .portlet .managedPortlet .portletHeader {
   background: transparent !important;
   padding: 0 !important;
-  font-weight: bold !important;
-  margin: 0px;
-  font-size: 22px !important;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  font-size: 14px;
   text-transform: uppercase;
+  border-bottom: 1px dotted #999999;
 }
 .portlet .portletHeader a,
 .portlet .managedPortlet .portletHeader a {
   outline: none;
   color: white !important;
-  font-size: 22px !important;
+  font-size: 14px;
+  font-weight: bold;
 }
 .portlet .portletItem {
   margin: 0px 0px 0px 0px;
@@ -6810,10 +6812,9 @@ span.portletItemDetails {
 .portletFooter {
   background: transparent !important;
   margin: 0px !important;
-  padding: 20px 15px 12px 0px;
+  padding: 0;
   border: 0px;
   text-align: left;
-  height: 120px;
 }
 .portlet a {
   text-decoration: none;
@@ -6822,8 +6823,8 @@ span.portletItemDetails {
 .portlet a.tile {
   display: block;
   color: black;
-  font-size: 12.307692307692307px;
-  padding: 11px 0;
+  font-size: 12px;
+  padding: 10px 0;
 }
 .portletItem ul {
   list-style-type: none;
@@ -6833,9 +6834,9 @@ span.portletItemDetails {
   border: 0px solid black;
 }
 .portletItem p {
-  line-height: 22px;
+  line-height: 20px;
   margin: 0px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5em;
 }
 .portletItem a,
@@ -6850,25 +6851,20 @@ span.portletItemDetails {
 }
 .portletStaticText {
   background: transparent;
-  margin: 0px 0px 20px 0px;
+  margin: 0;
   vertical-align: top;
-  padding: 0px 0px 0px 0px;
+  padding: 0;
 }
 .portletStaticText .image-inline {
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 .portletStaticText td {
   vertical-align: top;
 }
 .portletStaticText p {
-  padding: 0px 0px 0px 0px;
-  line-height: 22px;
-  margin-bottom: 11px;
-}
-.section-gruendach .portletStaticText p {
-  padding: 0px 22px 0px 22px !important;
-  line-height: 22px;
-  margin-bottom: 11px;
+  padding: 0;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 .portletStaticText ul {
   list-style-image: none;
@@ -6922,7 +6918,7 @@ dd.portletItem .navTreeItem a {
   padding: 5px 0px 4px 5px !important;
   margin: 0px 0px 0px 0px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 11px;
   text-align: left;
   text-transform: uppercase;
   border-bottom: 1px dotted white !important;
@@ -6931,7 +6927,7 @@ dd.portletItem .navTreeItem a {
 .navTreeItem a {
   background: transparent;
   color: #663333;
-  line-height: 33px;
+  line-height: 30px;
 }
 .navTreeItem a:hover {
   background: transparent;
@@ -6972,8 +6968,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 .navTreeItem .navTreeLevel1 li a:link {
   color: white: !important;
-  padding-left: 14.666666666666666px !important;
-  font-size: 10.666666666666666px;
+  padding-left: 13.333333333333334px !important;
+  font-size: 9.333333333333334px;
 }
 .navTreeLevel2 {
   margin-left: 0px !important;
@@ -6990,6 +6986,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0;
+  max-width: 920px;
 }
 select,
 textarea,
@@ -7019,7 +7016,7 @@ input.submit-widget {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-size: 10.666666666666666px;
+  font-size: 9.333333333333334px;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 1.42857;
@@ -7047,7 +7044,7 @@ h6,
 .wrapper {
   background: url(../img/col.gif) repeat;
   padding: 0;
-  margin: 22px auto 22px auto;
+  margin: 20px auto 20px auto;
   border-radius: 8px;
   max-width: 920px;
   box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
@@ -7073,18 +7070,18 @@ h6,
   /* IE6-9 */
 }
 .leadImage {
-  margin-top: -44px;
-  margin-left: -28.6px;
+  margin-top: -40px;
+  margin-left: -25px;
 }
 .navbar {
   margin: 0;
   border-top: 1px solid #cccaca;
   background: #663333;
-  padding: 5.5px 22px;
+  padding: 5px 20px;
   border-radius: 0;
   display: inline-block;
   width: 100%;
-  min-height: 33px;
+  min-height: 30px;
 }
 .navbar ul {
   display: inline;
@@ -7102,14 +7099,13 @@ h6,
 .navbar #main-nav li {
   text-align: center;
   display: inline-block;
-  border-radius: 4px 4px 0 0;
 }
 .navbar #main-nav a {
   color: #C3DBE5;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 0 11px;
+  padding: 0 10px;
   text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
   font-weight: bold;
   background: url(../img/arrow.gif) no-repeat left 5px;
@@ -7119,13 +7115,10 @@ h6,
   text-shadow: none;
   text-decoration: none;
 }
-.navbar #main-nav #portaltab-sprachpraxis-level1 a {
-  border: none !important;
-}
 .navbar #main-nav .globalSectionsLevel1 {
   float: left;
   background: #663333;
-  padding: 11px;
+  padding: 10px;
   border-radius: 0 0 4px 4px;
 }
 .navbar #main-nav .globalSectionsLevel1 ul {
@@ -7136,12 +7129,12 @@ h6,
   text-align: left;
 }
 .navbar #main-nav .globalSectionsLevel1 li a {
-  padding: 0px 11px;
+  padding: 0px 10px;
   background: none;
   text-transform: none !important;
   border: 1px dotted white;
   border-width: 1px 0px 0px 0px;
-  font-size: 11.666666666666668px;
+  font-size: 10px;
 }
 .navbar #main-nav .globalSectionsLevel1 .hasChildrens {
   background: transparent;
@@ -7154,49 +7147,20 @@ h6,
   text-shadow: none !important;
 }
 #breadcrumbs {
-  padding: 11px 22px;
-  font-size: 14px;
+  padding: 10px 20px;
+  font-size: 12px;
   background: transparent;
 }
 .app-content {
   background: transparent;
-  padding: 22px 44px 22px 22px;
+  padding: 20px 40px 20px 20px;
 }
 .app-content #app-col-content {
-  padding: 22px;
-}
-@-moz-keyframes dimIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes dimIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.app-content .dim-in {
-  animation: 1s ease-in 0s normal forwards 1 dimIn;
-  opacity: 0;
-}
-.app-content .dim-in.one {
-  animation-delay: 0.5s;
-}
-.app-content .dim-in.two {
-  animation-delay: 1.2s;
-}
-.app-content .dim-in.three {
-  animation-delay: 1.6s;
+  padding: 20px;
 }
 .app-content .documentFirstHeading {
-  font-size: 20px;
-  margin-bottom: 22px;
+  font-size: 18px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 .app-content .image-inline {
@@ -7206,11 +7170,11 @@ h6,
 }
 #edit-bar {
   display: inline-block;
-  padding: 11px;
+  padding: 10px;
   width: 100%;
   background: #663333;
-  font-size: 14px;
-  margin-bottom: 11px;
+  font-size: 12px;
+  margin-bottom: 10px;
   border: 0px;
   border-radius: 4px;
 }
@@ -7219,7 +7183,7 @@ h6,
   background: #663333;
 }
 #edit-bar #contentActionMenus {
-  padding: 11px;
+  padding: 10px;
   background: #663333;
 }
 #edit-bar .actionMenuContent {
@@ -7236,12 +7200,12 @@ h6,
   background: none repeat scroll 0 0 #EFEFEF;
   border: 1px solid #EFEFEF;
   border-radius: 4px;
-  margin-bottom: 11px;
-  margin-top: 11px;
-  padding: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
 }
 .tileItem .tileHeadline {
-  font-size: 24px;
+  font-size: 21px;
   margin-top: 0;
 }
 .tileItem .tileFooter .hiddenStructure {
@@ -7249,8 +7213,8 @@ h6,
 }
 .tileItem .tileFooter a span {
   color: white;
-  font-size: 12.307692307692307px;
-  padding: 7.333333333333333px;
+  font-size: 10.769230769230768px;
+  padding: 6.666666666666667px;
   border-radius: 4px;
   text-transform: uppercase;
   background: #7db9e8;
@@ -7274,11 +7238,10 @@ h6,
   display: none;
 }
 input.searchPage {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 #app-col-sidebar {
-  border: 1px solid #66ccff;
-  padding: 22px 44px;
+  padding: 0;
   background: transparent;
 }
 #above-content #portal-breadcrumbs {
@@ -7286,10 +7249,10 @@ input.searchPage {
 }
 .app-footer {
   background: #333333;
-  padding: 11px 22px;
+  padding: 10px 20px;
   border-top: 1px solid #cccaca;
   text-transform: uppercase;
-  font-size: 10.769230769230768px;
+  font-size: 9.23076923076923px;
   border-radius: 0 0 8px 8px;
   color: #999999;
 }
@@ -7304,16 +7267,16 @@ input.searchPage {
     color: white;
     font-weight: bold;
     text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
-    font-size: 27.2px !important;
+    font-size: 23.8px !important;
   }
   .app-brandbar img {
-    margin: 22px 0 0 0;
+    margin: 20px 0 0 0;
     width: 100% !important;
   }
   .app-brandbar p {
-    font-size: 16px;
+    font-size: 14px;
     color: #66ccff;
-    margin-left: 57.2px;
+    margin-left: 52px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
@@ -7321,7 +7284,7 @@ input.searchPage {
   .app-brandbar #siteactions {
     float: none;
     margin-top: -27px;
-    padding: 5.5px;
+    padding: 5px;
     background: transparent;
     text-align: center;
     border-radius: 0 0 8px 8px;
@@ -7329,16 +7292,16 @@ input.searchPage {
     border-top: 0;
   }
   .app-brandbar #siteactions ul {
-    margin-bottom: 5.5px;
+    margin-bottom: 5px;
     padding: 0;
   }
   .app-brandbar #siteactions ul li {
     display: inline;
   }
   .app-brandbar #siteactions ul li a {
-    font-size: 10.769230769230768px;
+    font-size: 9.23076923076923px;
     text-transform: uppercase;
-    padding: 0 5.5px;
+    padding: 0 5px;
     border-right: 1px solid white;
   }
   .app-brandbar #siteactions ul li a:hover {
@@ -7353,34 +7316,34 @@ input.searchPage {
     padding: 0;
   }
   .app-content #app-col-content {
-    padding-left: 22px !important;
+    padding-left: 20px !important;
   }
   .app-content p {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 40px;
   }
   .app-content li {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 40px;
   }
   .app-content h3 {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 40px;
     font-weight: bold;
   }
   .app-content .documentFirstHeading {
-    line-height: 44px !important;
-    margin-top: 22px !important;
+    line-height: 40px !important;
+    margin-top: 20px !important;
   }
   .navbar {
     background: transparent;
     margin: 0;
     border: 0px solid red;
-    padding: 22px;
+    padding: 20px;
     border-radius: 0;
     display: inline-block;
     width: 100%;
-    min-height: 33px;
+    min-height: 30px;
   }
   .navbar .container {
     background: transparent;
@@ -7410,7 +7373,7 @@ input.searchPage {
     color: white;
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 28px;
     border-right: 0px;
     padding: 0 !important;
     text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
@@ -7436,7 +7399,7 @@ input.searchPage {
     max-width: 100% !important;
   }
   #portal-breadcrumbs {
-    font-size: 19.2px !important;
+    font-size: 16.8px !important;
   }
   .navTreeItem a,
   dd.portletItem .navTreeItem a {
@@ -7445,28 +7408,28 @@ input.searchPage {
     padding: 5px 0px 4px 5px !important;
     margin: 0px 0px 0px 0px;
     font-weight: normal;
-    font-size: 24px !important;
+    font-size: 21px !important;
     text-align: left;
     text-transform: uppercase;
     border-bottom: 1px dotted #999999 !important;
   }
   .portlet a.tile {
     display: block;
-    font-size: 24px !important;
+    font-size: 21px !important;
   }
   #app-col-sidebar {
     border-radius: 0;
   }
   body > footer {
     padding: 0;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
   }
   body > footer .app-footer {
     background: transparent;
-    padding: 11px 0;
+    padding: 10px 0;
     border-top: 5px solid #663333;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 18px;
   }
   body > footer .app-footer ul {
     margin: 0;
@@ -7475,9 +7438,9 @@ input.searchPage {
   body > footer .app-footer ul li {
     display: block;
     border-right: 0px solid black;
-    padding-right: 5.5px;
-    padding-left: 5.5px;
-    line-height: 44px;
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 40px;
   }
   body > footer .app-footer ul .impressum {
     border: 0px !important;

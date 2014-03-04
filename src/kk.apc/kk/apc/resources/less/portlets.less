@@ -1,21 +1,23 @@
 // Portlets specific styles
 
 .portlet {
-    margin: 0px 0px 20px 0px !important;
+    margin: 0;
     background: transparent;
     padding: 0px;
 
     .portletHeader, .managedPortlet .portletHeader {
         background: transparent !important;
         padding: 0 !important;
-        font-weight: bold !important;
-        margin: 0px;
-        font-size: @font-size-large * 1.1 !important;
+        font-weight: bold;
+        margin: 0 0 @line-height-computed / 2 0;
+        font-size: @font-size-base;
         text-transform: uppercase;
+        border-bottom: 1px dotted @gray-light;
         a {
             outline: none;
             color: white !important;
-            font-size: @font-size-large * 1.1 !important;
+            font-size: @font-size-base;
+            font-weight: bold;
         }
     }
 
@@ -42,10 +44,9 @@ span.portletItemDetails {
 .portletFooter {
     background: transparent !important;
     margin: 0px !important;
-    padding: 20px 15px 12px 0px;
+    padding: 0;
     border: 0px;
     text-align: left;
-    height: 120px;
 }
 
 .portlet a {
@@ -56,7 +57,7 @@ span.portletItemDetails {
 .portlet a.tile {
     display: block;
     color: black;
-    font-size: @font-size-base / 1.3;
+    font-size: @font-size-small;
     padding: @line-height-computed / 2 0;
 }
 
@@ -89,9 +90,9 @@ span.portletItemDetails {
 
 .portletStaticText {
     background: transparent;
-    margin: 0px 0px 20px 0px;
+    margin: 0;
     vertical-align: top;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 
     .image-inline {
         margin-bottom: @line-height-computed / 2;
@@ -103,13 +104,7 @@ span.portletItemDetails {
 }
 
 .portletStaticText p {
-    padding: 0px 0px 0px 0px;
-    line-height: @line-height-computed;
-    margin-bottom: @line-height-computed / 2;
-}
-
-.section-gruendach .portletStaticText p {
-    padding: 0px @line-height-computed 0px @line-height-computed !important;
+    padding: 0;
     line-height: @line-height-computed;
     margin-bottom: @line-height-computed / 2;
 }
