@@ -7041,6 +7041,26 @@ h6,
 .h6 {
   color: #663333;
 }
+#parent-fieldname-text {
+  padding-right: 30px;
+}
+#parent-fieldname-text ul {
+  padding: 0;
+}
+#parent-fieldname-text ul li {
+  list-style-position: inside;
+}
+#parent-fieldname-text h2 {
+  color: #555555;
+  font-size: 18px;
+  border-bottom: 1px dotted #555555;
+  padding-bottom: 10px;
+  line-height: 24px;
+}
+#parent-fieldname-text h3 {
+  color: #555555;
+  font-size: 15px;
+}
 .wrapper {
   background: url(../img/col.gif) repeat;
   padding: 0;
@@ -7072,6 +7092,11 @@ h6,
 .leadImage {
   margin-top: -40px;
   margin-left: -25px;
+}
+.leadImage img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 .navbar {
   margin: 0;

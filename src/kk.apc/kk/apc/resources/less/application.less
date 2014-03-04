@@ -42,6 +42,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: @brand-primary;
 }
 
+#parent-fieldname-text {
+  padding-right: @line-height-computed * 1.5;
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style-position: inside;
+    }
+  }
+  h2 {
+    color: @gray;
+    font-size: @font-size-large;
+    border-bottom: 1px dotted @gray;
+    padding-bottom: @line-height-computed / 2;
+    line-height: @line-height-computed * 1.2;
+  }
+  h3 {
+    color: @gray;
+    font-size: @font-size-large / 1.2;
+  }
+}
+
  .wrapper {
   background: url(../img/col.gif) repeat;
   padding: 0;
@@ -73,6 +96,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .leadImage {
   margin-top: -@line-height-computed * 2;
   margin-left: -25px;
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
 }
 
 
@@ -295,14 +324,7 @@ input.searchPage {
 #app-col-sidebar {
   padding: 0;
   background: transparent;
-} 
-
-
-
-
-
-
-// CAROUSEL
+}
 
 #above-content {
   #portal-breadcrumbs {
