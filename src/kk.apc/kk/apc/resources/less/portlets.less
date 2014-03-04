@@ -10,7 +10,7 @@
         padding: 0 !important;
         font-weight: bold;
         margin: 0 0 @line-height-computed / 2 0;
-        font-size: @font-size-base;
+        font-size: @font-size-base * 1.2;
         text-transform: uppercase;
         border-bottom: 1px dotted @gray-light;
         a {
@@ -57,7 +57,7 @@ span.portletItemDetails {
 .portlet a.tile {
     display: block;
     color: black;
-    font-size: @font-size-small;
+    font-size: @font-size-base * 1.1;
     padding: @line-height-computed / 2 0;
 }
 
@@ -131,7 +131,7 @@ span.portletItemDetails {
 }
 
 .portletNavigationTree .portletHeader {
-    display: none;
+
 }
 
 .portletNavigationTree .portletItem {
@@ -167,13 +167,13 @@ ul.navTree {
 .navTreeItem a, dd.portletItem .navTreeItem a {
     display: block;
     text-decoration: none;
-    padding: 5px 0px 4px 5px !important;
+    padding: 5px 0px 4px 0 !important;
     margin: 0px 0px 0px 0px;
     font-weight: bold;
     font-size: @font-size-base - 3;
     text-align: left;
     text-transform: uppercase;
-    border-bottom: 1px dotted white !important;
+    border-bottom: 1px dotted @gray-light;
     color: white;
 }
 
@@ -185,7 +185,7 @@ ul.navTree {
 
 .navTreeItem a:hover {
     background: transparent;
-    color: @brand-success !important;
+    color: @brand-primary !important;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
@@ -207,22 +207,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     color: black !important;
 }
 
-.contenttype-formfolder img {
-    display: none;
-}
-
-.contenttype-specialoffercategory img {
-    display: none;
-}
-
-.contenttype-projectcategory img {
-    display: none;
-}
-
 .navTreeLevel0 {
     margin: 0px 0px 0px 0px !important;
     border: 0px solid red !important;
     text-transform: none;
+    margin-left: 0;
 }
 
 .navTreeLevel1 {
@@ -232,7 +221,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 .navTreeItem .navTreeLevel1 li a:link {
     color: white: !important;
-    padding-left: @line-height-computed / 1.5 !important;
+    padding-left: 0;
     font-size: @font-size-base / 1.5;
 }
 

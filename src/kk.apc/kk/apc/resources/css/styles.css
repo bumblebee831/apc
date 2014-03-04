@@ -6783,7 +6783,7 @@ ul.visualNoMarker {
   padding: 0 !important;
   font-weight: bold;
   margin: 0 0 10px 0;
-  font-size: 14px;
+  font-size: 16.8px;
   text-transform: uppercase;
   border-bottom: 1px dotted #999999;
 }
@@ -6823,7 +6823,7 @@ span.portletItemDetails {
 .portlet a.tile {
   display: block;
   color: black;
-  font-size: 12px;
+  font-size: 15.400000000000002px;
   padding: 10px 0;
 }
 .portletItem ul {
@@ -6883,9 +6883,6 @@ span.portletItemDetails {
   line-height: 1em;
   width: 100%;
 }
-.portletNavigationTree .portletHeader {
-  display: none;
-}
 .portletNavigationTree .portletItem {
   margin: 0px !important;
 }
@@ -6915,13 +6912,13 @@ ul.navTree {
 dd.portletItem .navTreeItem a {
   display: block;
   text-decoration: none;
-  padding: 5px 0px 4px 5px !important;
+  padding: 5px 0px 4px 0 !important;
   margin: 0px 0px 0px 0px;
   font-weight: bold;
   font-size: 11px;
   text-align: left;
   text-transform: uppercase;
-  border-bottom: 1px dotted white !important;
+  border-bottom: 1px dotted #999999;
   color: white;
 }
 .navTreeItem a {
@@ -6931,7 +6928,7 @@ dd.portletItem .navTreeItem a {
 }
 .navTreeItem a:hover {
   background: transparent;
-  color: #66ccff !important;
+  color: #663333 !important;
 }
 dl.portlet ul.navTree .navTreeCurrentItem {
   margin-left: 0px;
@@ -6948,19 +6945,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeItemInPath {
   color: black !important;
 }
-.contenttype-formfolder img {
-  display: none;
-}
-.contenttype-specialoffercategory img {
-  display: none;
-}
-.contenttype-projectcategory img {
-  display: none;
-}
 .navTreeLevel0 {
   margin: 0px 0px 0px 0px !important;
   border: 0px solid red !important;
   text-transform: none;
+  margin-left: 0;
 }
 .navTreeLevel1 {
   margin-left: 0;
@@ -6968,7 +6957,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 .navTreeItem .navTreeLevel1 li a:link {
   color: white: !important;
-  padding-left: 13.333333333333334px !important;
+  padding-left: 0;
   font-size: 9.333333333333334px;
 }
 .navTreeLevel2 {
@@ -7283,191 +7272,4 @@ input.searchPage {
 }
 .app-footer a {
   color: white;
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .app-brandbar {
-    padding: 0 !important;
-  }
-  .app-brandbar a {
-    color: white;
-    font-weight: bold;
-    text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
-    font-size: 23.8px !important;
-  }
-  .app-brandbar img {
-    margin: 20px 0 0 0;
-    width: 100% !important;
-  }
-  .app-brandbar p {
-    font-size: 14px;
-    color: #66ccff;
-    margin-left: 52px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
-  }
-  .app-brandbar #siteactions {
-    float: none;
-    margin-top: -27px;
-    padding: 5px;
-    background: transparent;
-    text-align: center;
-    border-radius: 0 0 8px 8px;
-    border: 0px solid #66ccff;
-    border-top: 0;
-  }
-  .app-brandbar #siteactions ul {
-    margin-bottom: 5px;
-    padding: 0;
-  }
-  .app-brandbar #siteactions ul li {
-    display: inline;
-  }
-  .app-brandbar #siteactions ul li a {
-    font-size: 9.23076923076923px;
-    text-transform: uppercase;
-    padding: 0 5px;
-    border-right: 1px solid white;
-  }
-  .app-brandbar #siteactions ul li a:hover {
-    color: #999999;
-    text-shadow: none;
-    text-decoration: none;
-  }
-  .app-content {
-    width: 100%;
-    background: white;
-    float: left;
-    padding: 0;
-  }
-  .app-content #app-col-content {
-    padding-left: 20px !important;
-  }
-  .app-content p {
-    font-size: 28px;
-    line-height: 40px;
-  }
-  .app-content li {
-    font-size: 28px;
-    line-height: 40px;
-  }
-  .app-content h3 {
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: bold;
-  }
-  .app-content .documentFirstHeading {
-    line-height: 40px !important;
-    margin-top: 20px !important;
-  }
-  .navbar {
-    background: transparent;
-    margin: 0;
-    border: 0px solid red;
-    padding: 20px;
-    border-radius: 0;
-    display: inline-block;
-    width: 100%;
-    min-height: 30px;
-  }
-  .navbar .container {
-    background: transparent;
-    padding: 0px;
-  }
-  .navbar ul {
-    text-align: center;
-    margin: 0 auto;
-    display: inline;
-  }
-  .navbar #main-nav {
-    list-style-type: none;
-    width: 100%;
-    background: transparent;
-  }
-  .navbar #main-nav .selected a {
-    color: black;
-    text-shadow: none;
-  }
-  .navbar #main-nav li {
-    text-align: left;
-    display: inline-block;
-    border-radius: 0;
-    width: 100%;
-  }
-  .navbar #main-nav a {
-    color: white;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 28px;
-    border-right: 0px;
-    padding: 0 !important;
-    text-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
-    font-weight: bold;
-    background: none;
-  }
-  .navbar #main-nav a:hover {
-    color: black;
-    text-shadow: none;
-    text-decoration: none;
-  }
-  .navbar #main-nav #portaltab-sprachpraxis a {
-    border: none !important;
-  }
-  .actions {
-    display: none;
-  }
-  .leadImage {
-    margin-top: 0;
-    margin-left: 0;
-  }
-  .leadImage .topImage {
-    max-width: 100% !important;
-  }
-  #portal-breadcrumbs {
-    font-size: 16.8px !important;
-  }
-  .navTreeItem a,
-  dd.portletItem .navTreeItem a {
-    display: block;
-    text-decoration: none;
-    padding: 5px 0px 4px 5px !important;
-    margin: 0px 0px 0px 0px;
-    font-weight: normal;
-    font-size: 21px !important;
-    text-align: left;
-    text-transform: uppercase;
-    border-bottom: 1px dotted #999999 !important;
-  }
-  .portlet a.tile {
-    display: block;
-    font-size: 21px !important;
-  }
-  #app-col-sidebar {
-    border-radius: 0;
-  }
-  body > footer {
-    padding: 0;
-    margin-bottom: 20px;
-  }
-  body > footer .app-footer {
-    background: transparent;
-    padding: 10px 0;
-    border-top: 5px solid #663333;
-    text-transform: uppercase;
-    font-size: 18px;
-  }
-  body > footer .app-footer ul {
-    margin: 0;
-    padding: 0;
-  }
-  body > footer .app-footer ul li {
-    display: block;
-    border-right: 0px solid black;
-    padding-right: 5px;
-    padding-left: 5px;
-    line-height: 40px;
-  }
-  body > footer .app-footer ul .impressum {
-    border: 0px !important;
-  }
 }
