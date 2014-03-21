@@ -604,7 +604,7 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 pre.prettyprint {
   margin-bottom: 20px;
@@ -1144,7 +1144,7 @@ input[type="color"] {
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -1489,7 +1489,7 @@ select.input-small {
   text-shadow: 0 1px 0 #fff;
   background-color: #eeeeee;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .input-group-addon.input-small {
   padding: 5px 10px;
@@ -1571,7 +1571,7 @@ select.input-small {
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 8px;
   white-space: nowrap;
 }
 .btn:focus {
@@ -1883,7 +1883,7 @@ input[type="button"].btn-block {
   background-color: #ffffff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
@@ -1997,13 +1997,13 @@ input[type="button"].btn-block {
   border: 1px solid #dddddd;
 }
 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .list-group-item > .badge {
   float: right;
@@ -2045,7 +2045,7 @@ a.list-group-item.active .list-group-item-text {
   margin-bottom: 20px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -2056,16 +2056,16 @@ a.list-group-item.active .list-group-item-text {
   font-weight: 500;
   background-color: #f5f5f5;
   border-bottom: 1px solid #dddddd;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 .panel-footer {
   margin: 15px -15px -15px;
   padding: 10px 15px;
   background-color: #f5f5f5;
   border-top: 1px solid #dddddd;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 .panel-primary {
   border-color: #663333;
@@ -2126,7 +2126,7 @@ a.list-group-item.active .list-group-item-text {
   margin-bottom: 20px;
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -2253,7 +2253,7 @@ button.close {
   margin-right: 2px;
   line-height: 1.428571429;
   border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
@@ -2367,7 +2367,7 @@ button.close {
   padding-left: 15px;
   padding-right: 15px;
   background-color: #eeeeee;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .navbar:before,
 .navbar:after {
@@ -2398,7 +2398,7 @@ button.close {
   padding-bottom: 15px;
   color: #777777;
   line-height: 20px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
@@ -2795,7 +2795,7 @@ button.close {
   margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -2812,7 +2812,7 @@ button.close {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .pagination > li {
   display: inline;
@@ -2830,13 +2830,13 @@ button.close {
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   border-left-width: 1px;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .pagination > li > a:hover,
 .pagination > li > a:focus,
@@ -3107,7 +3107,7 @@ button.close {
   text-align: center;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .tooltip-arrow {
   position: absolute;
@@ -3295,7 +3295,7 @@ button.close {
   color: #c09853;
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .alert h4 {
   margin-top: 0;
@@ -3364,7 +3364,7 @@ button.close {
   line-height: 1.428571429;
   background-color: #cccaca;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -3545,7 +3545,7 @@ a.list-group-item.active > .badge,
   height: 20px;
   margin-bottom: 20px;
   background-color: #f5f5f5;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -3624,7 +3624,7 @@ a.list-group-item.active > .badge,
 .accordion-group {
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .accordion-heading {
   border-bottom: 0;
@@ -5952,7 +5952,7 @@ ul.formTabs > li > a {
   margin-right: 2px;
   line-height: 1.428571429;
   border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 ul.formTabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
@@ -6026,7 +6026,7 @@ input.submit-widget {
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 8px;
   white-space: nowrap;
   color: #ffffff;
   background-color: #474949;
@@ -6688,7 +6688,7 @@ img.image-right,
   line-height: 1.428571429;
   background-color: #cccaca;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: block;
@@ -7053,8 +7053,8 @@ h6,
 .wrapper {
   background: url(../img/col.gif) repeat;
   padding: 0;
-  margin: 20px auto 20px auto;
-  border-radius: 8px;
+  margin: 20px auto 0 auto;
+  border-radius: 8px 8px 0 0;
   max-width: 920px;
   box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
 }
@@ -7133,7 +7133,7 @@ h6,
   float: left;
   background: #663333;
   padding: 10px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 8px 8px;
 }
 .navbar #main-nav .globalSectionsLevel1 ul {
   text-align: left;
@@ -7179,7 +7179,7 @@ h6,
 }
 .app-content .image-inline {
   border: 10px solid white;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
 }
 #edit-bar {
@@ -7190,7 +7190,7 @@ h6,
   font-size: 12px;
   margin-bottom: 10px;
   border: 0px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 #edit-bar #content-views {
   padding: 0;
@@ -7213,7 +7213,7 @@ h6,
 .tileItem {
   background: none repeat scroll 0 0 #EFEFEF;
   border: 1px solid #EFEFEF;
-  border-radius: 4px;
+  border-radius: 8px;
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 20px;
@@ -7229,7 +7229,7 @@ h6,
   color: white;
   font-size: 10.769230769230768px;
   padding: 6.666666666666667px;
-  border-radius: 4px;
+  border-radius: 8px;
   text-transform: uppercase;
   background: #7db9e8;
   /* Old browsers */
