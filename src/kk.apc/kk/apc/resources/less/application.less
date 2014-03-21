@@ -76,25 +76,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
   .app-brandbar {
-    padding: 0;
+    padding: (@line-height-computed / 2);
     border-radius: @border-radius-base @border-radius-base 0 0;
-    background: #e8e6e7; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e8e6e7 0%, #939393 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e6e7), color-stop(100%,#939393)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #e8e6e7 0%,#939393 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #e8e6e7 0%,#939393 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #e8e6e7 0%,#939393 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #e8e6e7 0%,#939393 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e6e7', endColorstr='#939393',GradientType=0 ); /* IE6-9 */
+    #gradient > .vertical (@start-color: #e8e6e7; @end-color: #939393);
   }
 
   .brandbar-brand {
-    
+    border: 0px solid red;
+  }
+
+  .brandbar-claim {
+    border: 0px solid red;
+    margin-top: (@line-height-computed * 2);
   }
 }
 
 .leadImage {
-  margin-top: -@line-height-computed * 2;
+  margin-top: (-@line-height-computed * 2);
   margin-left: -25px;
   
   img {
