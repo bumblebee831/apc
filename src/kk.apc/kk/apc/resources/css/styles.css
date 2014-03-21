@@ -8833,6 +8833,7 @@ h6,
 .leadImage {
   margin-top: -40px;
   margin-left: -25px;
+  width: 100%;
 }
 .leadImage img {
   display: block;
