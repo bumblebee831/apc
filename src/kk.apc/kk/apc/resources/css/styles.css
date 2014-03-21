@@ -8816,7 +8816,7 @@ h6,
   box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
 }
 .wrapper .app-brandbar {
-  padding: 10px;
+  padding: 20px 20px 10px 20px;
   border-radius: 8px 8px 0 0;
   background-image: -webkit-linear-gradient(top, #e8e6e7 0%, #939393 100%);
   background-image: linear-gradient(to bottom, #e8e6e7 0%, #939393 100%);
