@@ -1,53 +1,30 @@
-// Settings Bootstrap overrides
-// -------------------
-
-@font-size-base: 14px;
-
-@brand-primary: #663333;
-@brand-success: #66ccff;
-
-@body-bg: #CCCACA;
+//
+// Application settings and variables
+// -------------------------------------------------
 
 
-@gray-darker:            lighten(#000, 13.5%); // #222
-@gray-dark:              lighten(#000, 20%);   // #333
-@gray:                   lighten(#000, 33.5%); // #555
-@gray-light:             lighten(#000, 60%);   // #999
-@gray-lighter:           lighten(#000, 93.5%); // #eee
+// Colors
+@app-primary:                   #8ec05e;
+@app-danger:                    #663333;
 
+// Gray
+@app-gray:                      #5a5f64;
+@app-gray-light:                #e3e4e5;
 
+// Overides
+@link-color:                    @app-danger;
+@brand-primary:                 @app-danger;
+@nav-link-color:                #C3DBE5;
+@body-bg:                       #CCCACA;
+@app-sidebar-bg:                #7a7979;
 
-@border-radius-base:    8px;
+@font-size-base:                16px;
+@font-family-base:              'Open Sans', @font-family-sans-serif;
 
-// Iconography
-// -------------------------
+@screen-sm:                     768px;
 
-@FontAwesomePath:           "../lib/font-awesome/font";
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@icon-font-path:            @FontAwesomePath;
-@icon-font-name:            "FontAwesome";
-
-
-
-// Invisibles & Helper Classes
-
-.hiddenStructure {
-    display: block;
-    background: transparent;
-    background-image: none; /* safari bug */
-    border: none;
-    height: 0.1em;
-    overflow: hidden;
-    padding: 0;
-    margin: -0.1em 0 0 -0.1em;
-    width: 1px;
-}
-
-ul.visualNoMarker {
-    list-style:none;
-    margin-left: 0;
-}
-
-.visualClear {
-    clear: both;
-}
+// Font awesome font path
+@fa-font-path:                  "../../assets/fonts";

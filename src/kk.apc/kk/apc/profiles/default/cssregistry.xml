@@ -46,7 +46,7 @@
  <stylesheet title="" authenticated="False" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="on"
     expression="request/HTTP_X_THEME_ENABLED | nothing"
-    id="++theme++kk.apc/css/styles.css" media="" rel="stylesheet"
+    id="++theme++kk.apc/dist/css/apc.css" media="" rel="stylesheet"
     rendering="link"
     applyPrefix="True"
     />
