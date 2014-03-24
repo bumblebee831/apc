@@ -1,0 +1,60 @@
+// nav
+
+.app-navbar {
+  margin: 0;
+  background: @brand-primary;
+  border: 0px solid @app-gray;
+  border-width: 5px 0 0 0 !important;
+  padding: 0;
+  border-radius: 0;
+  display: inline-block;
+  width: 100%;
+
+  ul {
+    display: inline;
+    padding: 0px;
+    border: 0px solid red;
+    margin: 0;
+
+    li {
+
+      a {
+        color: @nav-link-color !important;
+        text-transform: uppercase;
+        font-size: (@font-size-base * 1.5);
+        line-height: (@line-height-computed - 30);
+
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: @screen-sm-min) {
+          font-size: (@font-size-base / 1.5);
+          }
+
+        @media (min-width: @screen-md-min) {
+          font-size: (@font-size-base / 1.1);
+          }
+
+        @media (min-width: @screen-lg-min) {
+          border-right: 1px solid @app-gray;
+          }
+      }
+
+      a:hover {
+        color: white !important;
+        text-decoration: none;
+        background: @app-gray !important;
+      }
+    }
+
+    #portaltab-kontakt a {
+      border: none;
+    }
+  }
+
+  .selected {
+  background: @app-gray;
+
+  a {
+    color: white !important;
+  }
+}
+}

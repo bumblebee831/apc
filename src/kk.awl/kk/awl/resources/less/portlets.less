@@ -1,0 +1,234 @@
+// Portlets specific styles
+
+.portlet {
+    margin: 0 0 @line-height-computed 0 !important;
+    background: transparent;
+    padding: 0px;
+
+    .portletHeader, .managedPortlet .portletHeader {
+        background: transparent !important;
+        padding: 0 !important;
+        font-weight: bold;
+        margin: 0 0 (@line-height-computed / 2) 0;
+        font-size: (@font-size-base * 1.2);
+        text-transform: uppercase;
+        border-bottom: 1px dotted @gray-light;
+        a {
+            outline: none;
+            color: white !important;
+            font-size: @font-size-base;
+            font-weight: bold;
+        }
+    }
+
+    .portletItem {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        border: 0;
+    }
+}
+
+
+.portletItemDetails {
+    text-align: left;
+    display: block;
+    color: black;
+    font-size: 100%;
+    color: white;
+}
+
+span.portletItemDetails {
+    display: block;
+}
+
+.portletFooter {
+    background: transparent !important;
+    margin: 0px !important;
+    padding: 0;
+    border: 0px;
+    text-align: left;
+}
+
+.portlet a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.portlet a.tile {
+    display: block;
+    color: @link-color;
+    font-size: @font-size-base;
+    padding: @line-height-computed / 2 0;
+}
+
+.portletItem ul {
+    list-style-type: none;
+}
+
+.lastItem {
+    padding: 0px 0px 20px 0px !important;
+    border: 0px solid black;
+}
+
+.portletItem p {
+    line-height: @line-height-computed;
+    margin: 0px;
+    font-size: @font-size-base;
+}
+
+.portletItem a, .portletFooter a {
+  border-bottom: none;
+}
+
+.portletFooter a {
+    border-bottom: none;
+    background: transparent !important;
+    padding: 0px 20px 0px 0px;
+    font-weight: normal !important;
+}
+
+.portletStaticText {
+    background: transparent;
+    margin: 0;
+    vertical-align: top;
+    padding: 0;
+
+    .image-inline {
+        margin-bottom: @line-height-computed / 2;
+    }
+}
+
+.portletStaticText td {
+    vertical-align: top;
+}
+
+.portletStaticText p {
+    padding: 0;
+    line-height: @line-height-computed;
+    margin-bottom: @line-height-computed / 2;
+    color: white;
+}
+
+.portletStaticText ul {
+    list-style-image: none;
+    list-style-type: square;
+    margin: 0.5em 0 0 1.5em;
+}
+
+.portletStaticText ol {
+    margin: 0.5em 0 0 2em;
+}
+
+/* Portlets Navigation Styles */
+
+.portletNavigationTree {
+    padding: 0px;
+    margin: 0px;
+    list-style: none !important;
+    list-style-image: none !important;
+    line-height: 1em;
+    width: 100%;
+}
+
+.portletNavigationTree .portletHeader {
+
+}
+
+.portletNavigationTree .portletItem {
+    margin: 0px !important;
+}
+
+.portletNavigationTree .lastItem {
+    padding: 0px !important;
+}
+
+.navTree {
+    list-style: none;
+    list-style-image: none;
+    margin-top: 1px;
+    margin-left: 0px !important;
+}
+
+ul.navTree {
+    margin-left: 0px !important;
+    padding-left: 0px;
+}
+
+.navTree li {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.navTreeItem {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 0px 4px 0 !important;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-size: (@font-size-base - 3);
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 1px dotted @gray-light;
+    color: white;
+}
+
+.navTreeItem a {
+    background: transparent;
+    color: @brand-primary;
+    line-height: (@line-height-computed * 1.5);
+}
+
+.navTreeItem a:hover {
+    background: transparent;
+    color: @brand-primary !important;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navTreeCurrentItem {
+    color: black !important;
+    text-transform: none;
+    background: transparent !important;
+}
+
+.navTreeItem .active {
+    color: black !important;
+}
+
+.navTreeItemInPath {
+    color: black !important;
+}
+
+.navTreeLevel0 {
+    margin: 0 !important;
+    border: 0;
+    text-transform: none;
+    margin-left: 0;
+}
+
+.navTreeLevel1 {
+    margin-left: 0;
+    text-transform: none;
+}
+
+.navTreeItem .navTreeLevel1 li a:link {
+    color: white: !important;
+    padding-left: 0;
+    font-size: @font-size-base / 1.5;
+}
+
+.navTreeLevel2 {
+    margin-left: 0px !important;
+}
+
+.navTreeLevel3 {
+    margin-left: 0px !important;
+}

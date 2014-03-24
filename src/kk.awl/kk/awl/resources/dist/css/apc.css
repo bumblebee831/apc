@@ -12029,7 +12029,7 @@ a
 }
 .app-toolbar + .app-brandbar
 {
-    margin-top: 50px !important;
+    margin-top: 50px;
 }
 .template-theming-controlpanel
 {
