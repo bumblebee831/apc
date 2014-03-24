@@ -1,7 +1,7 @@
 // Portlets specific styles
 
 .portlet {
-    margin: 0;
+    margin: 0 0 @line-height-computed 0 !important;
     background: transparent;
     padding: 0px;
 
@@ -9,8 +9,8 @@
         background: transparent !important;
         padding: 0 !important;
         font-weight: bold;
-        margin: 0 0 @line-height-computed / 2 0;
-        font-size: @font-size-base * 1.2;
+        margin: 0 0 (@line-height-computed / 2) 0;
+        font-size: (@font-size-base * 1.2);
         text-transform: uppercase;
         border-bottom: 1px dotted @gray-light;
         a {
@@ -56,8 +56,8 @@ span.portletItemDetails {
 
 .portlet a.tile {
     display: block;
-    color: black;
-    font-size: @font-size-base * 1.1;
+    color: @link-color;
+    font-size: @font-size-base;
     padding: @line-height-computed / 2 0;
 }
 
@@ -74,7 +74,6 @@ span.portletItemDetails {
     line-height: @line-height-computed;
     margin: 0px;
     font-size: @font-size-base;
-    line-height: 1.5em;
 }
 
 .portletItem a, .portletFooter a {
@@ -107,6 +106,7 @@ span.portletItemDetails {
     padding: 0;
     line-height: @line-height-computed;
     margin-bottom: @line-height-computed / 2;
+    color: white;
 }
 
 .portletStaticText ul {
@@ -170,7 +170,7 @@ ul.navTree {
     padding: 5px 0px 4px 0 !important;
     margin: 0px 0px 0px 0px;
     font-weight: bold;
-    font-size: @font-size-base - 3;
+    font-size: (@font-size-base - 3);
     text-align: left;
     text-transform: uppercase;
     border-bottom: 1px dotted @gray-light;
@@ -180,7 +180,7 @@ ul.navTree {
 .navTreeItem a {
     background: transparent;
     color: @brand-primary;
-    line-height: @line-height-computed * 1.5;
+    line-height: (@line-height-computed * 1.5);
 }
 
 .navTreeItem a:hover {
@@ -208,8 +208,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 
 .navTreeLevel0 {
-    margin: 0px 0px 0px 0px !important;
-    border: 0px solid red !important;
+    margin: 0 !important;
+    border: 0;
     text-transform: none;
     margin-left: 0;
 }

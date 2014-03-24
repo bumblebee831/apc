@@ -52,11 +52,15 @@ h2 {
         background: url(../assets/img/col.gif) repeat-y top right white;
     }
 
+    .portalMessage {
+        padding: @line-height-computed;
+    }
+
     .app-page {
 
-        //@media (min-width: @screen-md-min) {
-        //padding-right: (@line-height-computed + 1);
-        //}
+        .portalMessage {
+            display: none;
+        }
 
         .documentFirstHeading {
             font-size: @font-size-large;
@@ -68,12 +72,25 @@ h2 {
             padding: @line-height-computed;
         }
 
+        .documentByLine {
+            padding: @line-height-computed;
+        }
+
         #content-core {
             padding: @line-height-computed;
         }
 
         .pfg-form {
             padding: @line-height-computed;
+        }
+
+        .image-inline {
+            border: 5px solid white;
+            border-radius: @border-radius-base;
+            box-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
+            display: block;
+            height: auto;
+            max-width: 100%;
         }
     }
 

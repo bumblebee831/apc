@@ -11745,7 +11745,7 @@ dd.image-caption
 }
 .portlet
 {
-    margin: 0;
+    margin: 0 0 22px 0 !important;
     padding: 0;
 
     background: transparent;
@@ -11813,13 +11813,13 @@ span.portletItemDetails
 }
 .portlet a.tile
 {
-    font-size: 17.6px;
+    font-size: 16px;
 
     display: block;
 
     padding: 11px 0;
 
-    color: black;
+    color: #633;
 }
 .portletItem ul
 {
@@ -11835,7 +11835,6 @@ span.portletItemDetails
 {
     font-size: 16px;
     line-height: 22px;
-    line-height: 1.5em;
 
     margin: 0;
 }
@@ -11876,6 +11875,8 @@ span.portletItemDetails
 
     margin-bottom: 11px;
     padding: 0;
+
+    color: white;
 }
 .portletStaticText ul
 {
@@ -11985,12 +11986,12 @@ dl.portlet ul.navTree .navTreeCurrentItem
 }
 .navTreeLevel0
 {
-    margin: 0 0 0 0 !important;
+    margin: 0 !important;
     margin-left: 0;
 
     text-transform: none;
 
-    border: 0 solid red !important;
+    border: 0;
 }
 .navTreeLevel1
 {
@@ -12085,6 +12086,14 @@ h3
         background: url(../assets/img/col.gif) repeat-y top right #fff;
     }
 }
+.wrapper .portalMessage
+{
+    padding: 22px;
+}
+.wrapper .app-page .portalMessage
+{
+    display: none;
+}
 .wrapper .app-page .documentFirstHeading
 {
     font-size: 20px;
@@ -12097,6 +12106,10 @@ h3
 {
     padding: 22px;
 }
+.wrapper .app-page .documentByLine
+{
+    padding: 22px;
+}
 .wrapper .app-page #content-core
 {
     padding: 22px;
@@ -12104,6 +12117,17 @@ h3
 .wrapper .app-page .pfg-form
 {
     padding: 22px;
+}
+.wrapper .app-page .image-inline
+{
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+
+    border: 5px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(50, 50, 50, .75);
 }
 .wrapper .app-sidebar
 {
