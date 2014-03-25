@@ -337,7 +337,7 @@ body
     line-height: 1.42857143;
 
     color: #333;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 input,
 button,
@@ -397,7 +397,7 @@ img
 
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 .img-circle
 {
@@ -1834,7 +1834,7 @@ th
 }
 .table .table
 {
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -4504,7 +4504,7 @@ textarea.input-group-sm > .input-group-btn > .btn
     color: #555;
     border: 1px solid #ddd;
     border-bottom-color: transparent;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 .nav-tabs.nav-justified
 {
@@ -4563,7 +4563,7 @@ textarea.input-group-sm > .input-group-btn > .btn
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus
     {
-        border-bottom-color: #cccaca;
+        border-bottom-color: #cbd1d5;
     }
 }
 .nav-pills > li
@@ -4653,7 +4653,7 @@ textarea.input-group-sm > .input-group-btn > .btn
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus
     {
-        border-bottom-color: #cccaca;
+        border-bottom-color: #cbd1d5;
     }
 }
 .tab-content > .tab-pane
@@ -5750,7 +5750,7 @@ a.list-group-item.active > .badge,
 
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 .thumbnail > img,
 .thumbnail a > img
@@ -10088,7 +10088,7 @@ ul.formTabs > li.active > a:focus
     color: #555;
     border: 1px solid #ddd;
     border-bottom-color: transparent;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 ul.formTabs.nav-justified
 {
@@ -10147,7 +10147,7 @@ ul.formTabs.nav-justified > .active > a:focus
   ul.formTabs.nav-justified > .active > a:hover,
   ul.formTabs.nav-justified > .active > a:focus
     {
-        border-bottom-color: #cccaca;
+        border-bottom-color: #cbd1d5;
     }
 }
 ul.formTabs li
@@ -11009,7 +11009,7 @@ table.plain > tbody + tbody
 table.listing .table,
 table.plain .table
 {
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 table.listing > thead > tr > .active,
 table.plain > thead > tr > .active,
@@ -11472,7 +11472,7 @@ img.image-right,
 
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #cccaca;
+    background-color: #cbd1d5;
 }
 img.image-left > img,
 img.image-right > img,
@@ -11739,7 +11739,7 @@ dd.image-caption
     text-transform: uppercase;
 
     color: #999;
-    border-top: 1px solid #cccaca;
+    border-top: 1px solid #cbd1d5;
     border-radius: 0 0 4px 4px;
     background: #333;
 }
@@ -12021,7 +12021,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 }
 body
 {
-    background: #cccaca;
+    background: #cbd1d5;
 }
 a
 {

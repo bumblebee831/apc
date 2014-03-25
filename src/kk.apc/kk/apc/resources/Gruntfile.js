@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 
         concat: {
             options: {
-                banner: '<%= banner %><%= jqueryCheck %>',
+                banner: '<%= banner %>',
                 stripBanners: false
             },
             dist: {
@@ -185,8 +185,8 @@ module.exports = function (grunt) {
             },
             'clean-source-js': {
                 path: 'dist/',
-                pattern: '../dist/js/rms.js',
-                replacement: 'js/rms.min.js',
+                pattern: '../dist/js/apc.js',
+                replacement: 'js/apc.min.js',
                 recursive: true
             },
             'clean-logo': {
@@ -196,11 +196,6 @@ module.exports = function (grunt) {
             },
             'clean-logo-signin': {
                 path: 'dist/signin.html',
-                pattern: '../assets/img/logo-apc.png',
-                replacement: '/++theme++kk.apc/dist/assets/img/logo-apc.png'
-            },
-            'clean-logo-fp': {
-                path: 'dist/frontpage.html',
                 pattern: '../assets/img/logo-apc.png',
                 replacement: '/++theme++kk.apc/dist/assets/img/logo-apc.png'
             },
@@ -262,10 +257,9 @@ module.exports = function (grunt) {
 
     // Copy jekyll generated templates and rename for diazo
     grunt.registerTask('copy-templates', '', function () {
-        grunt.file.copy('_site/index.html', 'dist/index.html');
-        grunt.file.copy('_site/theme/index.html', 'dist/theme.html');
+        grunt.file.copy('_site/index.html', 'dist/theme.html');
         grunt.file.copy('_site/signin/index.html', 'dist/signin.html');
-        grunt.file.copy('_site/frontpage/index.html', 'dist/frontpage.html');
+        // grunt.file.copy('_site/frontpage/index.html', 'dist/frontpage.html');
     });
 
     // Docs HTML validation task

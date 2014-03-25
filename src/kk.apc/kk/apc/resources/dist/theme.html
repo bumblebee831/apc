@@ -12,10 +12,10 @@
 <meta name="author" content="">
 <title>
   
-    Theme Template &middot; Bootstrap
+    Getting started &middot; Bootstrap
   
 </title>
-<link href="../../dist/css/generator-diazotheme.css" rel="stylesheet">
+<link href="../dist/css/generator-diazotheme.css" rel="stylesheet">
 <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -127,26 +127,25 @@
     <div class="container wrapper dim-in">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="app-col-content">
-        <div role="main">
-          <main class="app-content-body">
-    <div class="app-page" id="content">
-        <div class="app-page-content">
-            <div class="app-page-header app-section-header">
-                <h1 class="app-page-title">
-                    Main Page Headline</h1>
-                <p class="app-page-teaser">
-                    A teaser or short introduction to the content - ideally
-                    forming a summary of the detailed content body
-                </p>
-            </div>
-            <div class="app-page-body" id="content-core">
-                    <p class="text-muted">This is the main content area</p>
-            </div>
-        </div>
+          <div role="main">
+            <main class="app-content-body">
+  <div class="container app-page" id="content">
+    <div class="jumbotron">
+      <h1>Boilerplate theme template
+        <small>Kickstart your development</small>
+      </h1>
     </div>
-</main>
+    <div class="app-page-header">
+        <div class="page-header">
+            <h1>Yo - this is your new theme</h1>
         </div>
-      </div>
+        <p class="lead">This template was generated for you by our Yeoman
+            Diazo theme package.</p>
+    </div>
+  </div>
+</main>
+          </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <aside class="app-tile app-sidebar" id="app-col-sidebar">
               <h2>Sidebar</h2>
@@ -159,18 +158,30 @@
         <div class="row">
             <div class="col-xs-12 col-lg-8">
                 <span class="pull-left">
-                        &copy; Androschin &amp; Partner Management Consulting GmbH 2014
+                    &copy; Androschin &amp; Partner Management Consulting GmbH 2014
                 </span>
             </div>
-            
             <div class="col-xs-12 col-lg-4">
                 <span class="pull-right"><a href="/impressum">Impressum</a></span>
             </div>
         </div>
     </div>
 </footer>
-  </body>
-</html>
+    <!-- Defered JavaScript Loader
+(see: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html)
+================================================== -->
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/apc.min.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
     <div class="app-js-slot">
         <script type="text/javascript">
   WebFontConfig = {

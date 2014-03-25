@@ -5,8 +5,6 @@
 *
 * Designed and built by ade25
 */
-if (typeof jQuery === "undefined") { throw new Error("We require jQuery") }
-
 /*!
  * Modernizr v2.6.3
  * www.modernizr.com
