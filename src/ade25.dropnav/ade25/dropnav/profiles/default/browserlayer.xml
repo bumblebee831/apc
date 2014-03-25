@@ -1,0 +1,6 @@
+<layers>
+  <layer
+    name="ade25.dropnav.layer"
+    interface="ade25.dropnav.interfaces.IAde25DropNav"
+  />
+</layers>

@@ -228,9 +228,9 @@ module.exports = function (grunt) {
                 files: '<%= jshint.test.src %>',
                 tasks: ['jshint:test', 'qunit']
             },
-            recess: {
+            less: {
                 files: 'less/*.less',
-                tasks: ['recess']
+                tasks: ['less:compileTheme']
             }
         },
 

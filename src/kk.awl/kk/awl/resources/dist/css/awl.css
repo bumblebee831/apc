@@ -4676,7 +4676,7 @@ textarea.input-group-sm > .input-group-btn > .btn
     position: relative;
 
     min-height: 50px;
-    margin-bottom: 22px;
+    margin-bottom: 0;
 
     border: 1px solid transparent;
 }
@@ -4706,7 +4706,7 @@ textarea.input-group-sm > .input-group-btn > .btn
 {
     .navbar
     {
-        border-radius: 4px;
+        border-radius: 0;
     }
 }
 .navbar-header:before,
@@ -5125,17 +5125,17 @@ textarea.input-group-sm > .input-group-btn > .btn
 }
 .navbar-default
 {
-    border-color: #e7e7e7;
-    background-color: #f8f8f8;
+    border-color: #1f5b7e;
+    background-color: #256e99;
 }
 .navbar-default .navbar-brand
 {
-    color: #777;
+    color: #c3dbe5;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus
 {
-    color: #5e5e5e;
+    color: #9fc6d6;
     background-color: transparent;
 }
 .navbar-default .navbar-text
@@ -5144,20 +5144,20 @@ textarea.input-group-sm > .input-group-btn > .btn
 }
 .navbar-default .navbar-nav > li > a
 {
-    color: #777;
+    color: #c3dbe5;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus
 {
-    color: #333;
-    background-color: transparent;
+    color: #fff;
+    background-color: #256e99;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus
 {
-    color: #555;
-    background-color: #e7e7e7;
+    color: #fff;
+    background-color: #1f5b7e;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -5182,33 +5182,33 @@ textarea.input-group-sm > .input-group-btn > .btn
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form
 {
-    border-color: #e7e7e7;
+    border-color: #1f5b7e;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus
 {
-    color: #555;
-    background-color: #e7e7e7;
+    color: #fff;
+    background-color: #1f5b7e;
 }
 @media (max-width: 767px)
 {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a
     {
-        color: #777;
+        color: #c3dbe5;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
     {
-        color: #333;
-        background-color: transparent;
+        color: #fff;
+        background-color: #256e99;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus
     {
-        color: #555;
-        background-color: #e7e7e7;
+        color: #fff;
+        background-color: #1f5b7e;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -5220,11 +5220,11 @@ textarea.input-group-sm > .input-group-btn > .btn
 }
 .navbar-default .navbar-link
 {
-    color: #777;
+    color: #c3dbe5;
 }
 .navbar-default .navbar-link:hover
 {
-    color: #333;
+    color: #fff;
 }
 .navbar-inverse
 {
@@ -11659,75 +11659,107 @@ dd.image-caption
 }
 .app-navbar
 {
-    display: inline-block;
-
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
-    border: 0 solid #5a5f64;
-    border-width: 5px 0 0 0 !important;
-    border-radius: 0;
-    background: #256e99;
+    border-top: 5px solid #5a5f64;
 }
-.app-navbar ul
+.navbar-nav
 {
-    display: inline;
-
-    margin: 0;
-    padding: 0;
-
-    border: 0 solid red;
+    margin-left: -7.5px;
 }
-.app-navbar ul li a
+.navbar-nav .navbar-collapse
 {
-    font-size: 24px;
-    line-height: -8px;
-
-    text-transform: uppercase;
-
-    color: #c3dbe5 !important;
-  /* Small devices (tablets, 768px and up) */
+    padding: 0;
 }
 @media (min-width: 768px)
 {
-    .app-navbar ul li a
+    .navbar-nav
     {
-        font-size: 10.66666667px;
-    }
-}
-@media (min-width: 992px)
-{
-    .app-navbar ul li a
-    {
-        font-size: 14.54545455px;
-    }
-}
-@media (min-width: 1200px)
-{
-    .app-navbar ul li a
-    {
-        border-right: 1px solid #5a5f64;
-    }
-}
-.app-navbar ul li a:hover
-{
-    text-decoration: none;
+        height: 50px;
+        margin-bottom: 0;
 
-    color: white !important;
-    background: #5a5f64 !important;
+        border: 0;
+    }
 }
-.app-navbar ul #portaltab-kontakt a
+.app-navbar-nav > li > a
+{
+    font-size: 14.54545455px !important;
+
+    -webkit-transition: background .25s linear;
+            transition: background .25s linear;
+    text-transform: uppercase;
+
+    color: #c3dbe5;
+    border: 0 solid #5a5f64;
+    border-width: 0 1px 0 0;
+}
+.app-navbar-nav > li > a:hover,
+.app-navbar-nav > li > a:focus
+{
+    color: #fff;
+    background-color: #256e99;
+}
+.app-navbar-nav > .active > a,
+.app-navbar-nav > .active > a:hover,
+.app-navbar-nav > .active > a:focus
+{
+    color: #fff;
+    background-color: #1f5b7e;
+}
+.app-navbar-nav > .disabled > a,
+.app-navbar-nav > .disabled > a:hover,
+.app-navbar-nav > .disabled > a:focus
+{
+    color: #ccc;
+    background-color: transparent;
+}
+.app-navbar-nav > .navitem-home > a
+{
+    padding-top: 16.92307692px;
+}
+.app-navbar-nav > .navitem-home > a,
+.app-navbar-nav > .navitem-home > a:hover,
+.app-navbar-nav > .navitem-home > a:focus
+{
+    color: #ccc;
+    background-color: transparent !important;
+}
+.app-navbar-nav #portaltab-contact a,
+.app-navbar-nav #portaltab-kontakt a
 {
     border: none;
 }
-.app-navbar .selected
+.app-navbar-nav .dropdown-menu > li > a
 {
-    background: #5a5f64;
+    font-size: 16px;
+
+    color: #256e99;
 }
-.app-navbar .selected a
+.app-navbar-nav .dropdown-title > a
+{
+    font-weight: 400;
+}
+.app-navbar-nav .dropdown-menu > .active > a,
+.app-navbar-nav .dropdown-menu > .active > a:hover,
+.app-navbar-nav .dropdown-menu > .active > a:focus
 {
     color: white !important;
+}
+@media (min-width: 768px)
+{
+    .app-navbar-nav > li > a
+    {
+        padding-top: 14px;
+        padding-bottom: 14px;
+
+        color: #8ec05e;
+    }
+    .app-navbar-nav .dropdown-menu > li > a
+    {
+        font-size: 11.66666667px;
+    }
+    .app-navbar-nav .dropdown-title > a
+    {
+        font-size: 16px;
+    }
 }
 .app-footer
 {
@@ -12077,18 +12109,11 @@ h3
 .wrapper
 {
     max-width: 960px;
-    margin: -5px auto 0 auto;
+    margin: 0 auto 0 auto;
     padding: 0;
 
     background: white;
     box-shadow: 0 0 10px rgba(70, 70, 70, .55);
-}
-@media (min-width: 992px)
-{
-    .wrapper
-    {
-        background: url(../assets/img/col.gif) repeat-y top right #fff;
-    }
 }
 .wrapper .portalMessage
 {

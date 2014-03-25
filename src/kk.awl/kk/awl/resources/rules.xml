@@ -74,7 +74,7 @@
             css:theme="#portal-searchbox" />-->
 
         <!-- Global navigation -->
-        <replace css:content="#portal-globalnav li"
+        <replace css:content="#app-navbar-nav"
             css:theme-children="#app-navbar-nav" />
 
         <replace css:content="#app-banner"

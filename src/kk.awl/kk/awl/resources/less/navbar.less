@@ -1,60 +1,91 @@
-// nav
+//
+// Application navbar
+// ----------------------------------------
+
+@app-navbar-height:   floor(@navbar-height);
 
 .app-navbar {
-  margin: 0;
-  background: @brand-primary;
-  border: 0px solid @app-gray;
-  border-width: 5px 0 0 0 !important;
-  padding: 0;
-  border-radius: 0;
-  display: inline-block;
-  width: 100%;
+    border-top: 5px solid @app-gray;
+}
 
-  ul {
-    display: inline;
-    padding: 0px;
-    border: 0px solid red;
-    margin: 0;
+.navbar-nav {
+    // margin-right: -(@navbar-padding-horizontal);
+    margin-left: -(@navbar-padding-horizontal / 2);
+    .navbar-collapse {
+        padding: 0;
+    }
+    @media (min-width: @grid-float-breakpoint) {
+        height: @app-navbar-height;
+        border: 0;
+        margin-bottom: 0;
+    }
+}
 
-    li {
-
-      a {
-        color: @nav-link-color !important;
+.app-navbar-nav {
+    > li > a {
+        color: @navbar-default-link-color;
         text-transform: uppercase;
-        font-size: (@font-size-base * 1.5);
-        line-height: (@line-height-computed - 30);
-
-        /* Small devices (tablets, 768px and up) */
-        @media (min-width: @screen-sm-min) {
-          font-size: (@font-size-base / 1.5);
-          }
-
-        @media (min-width: @screen-md-min) {
-          font-size: (@font-size-base / 1.1);
-          }
-
-        @media (min-width: @screen-lg-min) {
-          border-right: 1px solid @app-gray;
-          }
-      }
-
-      a:hover {
-        color: white !important;
-        text-decoration: none;
-        background: @app-gray !important;
-      }
+        border: 0px solid @app-gray;
+        border-width: 0 1px 0 0;
+        font-size: (@font-size-base / 1.1) !important;
+        .transition(background .25s linear);
+        &:hover,
+        &:focus {
+          color: @navbar-default-link-hover-color;
+          background-color: @app-danger;
+        }
+    }
+    > .active > a {
+        &,
+        &:hover,
+        &:focus {
+          color: @navbar-default-link-active-color;
+          background-color: @navbar-default-link-active-bg;
+        }
+    }
+    > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+          color: @navbar-default-link-disabled-color;
+          background-color: @navbar-default-link-disabled-bg;
+        }
+    }
+    > .navitem-home > a {
+        padding-top: (@line-height-computed / 1.3);
+        &,
+        &:hover,
+        &:focus {
+          color: @navbar-default-link-disabled-color;
+          background-color: @navbar-default-link-disabled-bg !important;
+        }
     }
 
+    #portaltab-contact a,
     #portaltab-kontakt a {
-      border: none;
+        border: none;
+    }
+    .dropdown-menu > li > a {
+        color: @app-danger;
+        font-size: @font-size-base;
+    }
+    .dropdown-title > a {
+        font-weight: 400;
+    }
+    .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+        color: white !important;
+    }
+    @media (min-width: @grid-float-breakpoint) {
+        >li > a {
+          color: @app-primary;
+          padding-top: ((@app-navbar-height - @line-height-computed) / 2);
+          padding-bottom: ((@app-navbar-height - @line-height-computed) / 2);
+        }
+        .dropdown-menu > li > a {
+            font-size: (@font-size-small / 1.2);
+        }
+        .dropdown-title > a {
+            font-size: @font-size-base;
+        }
     }
   }
-
-  .selected {
-  background: @app-gray;
-
-  a {
-    color: white !important;
-  }
-}
-}
