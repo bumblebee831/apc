@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ade25.dropnav\n"
+"POT-Creation-Date: 2014-03-26 08:18+0000\n"
+"PO-Revision-Date: 2014-03-26 09:31+0100\n"
+"Last-Translator: Serge Davidov <sd@kreativkombinat.de>\n"
+"Language-Team: KK Language Team <info@kreativkombinat.de.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ade25.dropnav\n"
+
+#: ./../navbar_templates/navbarviewlet.pt:37
+msgid "Contents"
+msgstr "Inhalt"
+
+#: ./../navbar_templates/navbarviewlet.pt:8
+msgid "Home"
+msgstr "Startseite"
+
+#: ./../navbar_templates/navbarviewlet.pt:32
+msgid "Overview"
+msgstr "Überblick"
+
