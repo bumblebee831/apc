@@ -24,8 +24,9 @@
                                <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
   <body>
-    <a class="sr-only" href="#content">Skip navigation</a>
-    <div class="navbar navbar-default navbar-fixed-top app-toolbar" id="app-toolbar">
+    <div class="wrapper">
+      <a class="sr-only" href="#content">Skip navigation</a>
+      <div class="navbar navbar-default navbar-fixed-top app-toolbar" id="app-toolbar">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".app-toolbar-collapse">
         <span class="icon-bar"></span>
@@ -78,8 +79,8 @@
         </ul>
     </div><!--/.nav-collapse -->
 </div>
-    <!-- App master nav -->    
-    <div class="container app-brandbar">
+      <!-- App master nav -->    
+      <div class="container app-brandbar">
     <div class="row">
         <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
             <a class="brandbar-claim pull-left" id="brandbar-brand" href="/">
@@ -93,7 +94,7 @@
         </div>
     </div>
 </div>
-    <div class="container">
+      <div class="container">
 <nav class="navbar navbar-default app-navbar" role="navigation">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".app-navbar-collapse">
@@ -124,9 +125,9 @@
 </div>
 
 
-    <div class="container wrapper dim-in" id="app-col-content">
-      <div role="main">
-          <main class="app-content-body">
+      <div class="container dim-in" id="app-col-content">
+        <div role="main">
+            <main class="app-content-body">
   <div class="container app-page" id="content">
     <div class="jumbotron">
       <h1>Boilerplate theme template
@@ -142,9 +143,9 @@
     </div>
   </div>
 </main>
+        </div>
       </div>
-    </div>
-    <footer id="site-footer">
+      <footer id="site-footer">
     <div class="container app-footer" id="app-footer-de">
         <div class="row">
             <div class="col-xs-12 col-lg-8">
@@ -173,7 +174,7 @@
         </div>
     </div>
 </footer>
-    <!-- Defered JavaScript Loader
+      <!-- Defered JavaScript Loader
 (see: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html)
 ================================================== -->
 <script type="text/javascript">
@@ -188,8 +189,8 @@ else if (window.attachEvent)
 window.attachEvent("onload", downloadJSAtOnload);
 else window.onload = downloadJSAtOnload;
 </script>
-    <div class="app-js-slot">
-        <script type="text/javascript">
+      <div class="app-js-slot">
+          <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Open+Sans:400,600,700,300:latin' ] }
   };
@@ -203,7 +204,7 @@ else window.onload = downloadJSAtOnload;
     s.parentNode.insertBefore(wf, s);
   })();
 </script>
+      </div>
     </div>
-
   </body>
 </html>

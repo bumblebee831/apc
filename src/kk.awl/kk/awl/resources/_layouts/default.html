@@ -8,21 +8,22 @@
     {% include head.html %}
   </head>
   <body>
-    <a class="sr-only" href="#content">Skip navigation</a>
-    {% include toolbar.html %}
-    <!-- App master nav -->    
-    {% include brandbar.html %}
-    {% include navbar.html %}
-    <div class="container wrapper dim-in" id="app-col-content">
-      <div role="main">
-          {{ content }}
+    <div class="wrapper">
+      <a class="sr-only" href="#content">Skip navigation</a>
+      {% include toolbar.html %}
+      <!-- App master nav -->    
+      {% include brandbar.html %}
+      {% include navbar.html %}
+      <div class="container dim-in" id="app-col-content">
+        <div role="main">
+            {{ content }}
+        </div>
+      </div>
+      {% include footer.html %}
+      {% include javascript.html %}
+      <div class="app-js-slot">
+          {% include webfonts.html %}
       </div>
     </div>
-    {% include footer.html %}
-    {% include javascript.html %}
-    <div class="app-js-slot">
-        {% include webfonts.html %}
-    </div>
-
   </body>
 </html>

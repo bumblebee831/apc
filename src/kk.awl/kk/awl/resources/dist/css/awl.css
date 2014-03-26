@@ -11659,7 +11659,7 @@ dd.image-caption
 }
 .app-navbar
 {
-    border-top: 5px solid #5a5f64;
+    border-top: 5px solid #333;
 }
 .navbar-nav
 {
@@ -11681,15 +11681,30 @@ dd.image-caption
 }
 .app-navbar-nav > li > a
 {
-    font-size: 14.54545455px !important;
+    font-size: 24px;
 
     -webkit-transition: background .25s linear;
             transition: background .25s linear;
     text-transform: uppercase;
 
     color: #c3dbe5;
-    border: 0 solid #5a5f64;
+    border: 0 solid #333;
     border-width: 0 1px 0 0;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px)
+{
+    .app-navbar-nav > li > a
+    {
+        font-size: 10px !important;
+    }
+}
+@media (min-width: 992px)
+{
+    .app-navbar-nav > li > a
+    {
+        font-size: 14.54545455px !important;
+    }
 }
 .app-navbar-nav > li > a:hover,
 .app-navbar-nav > li > a:focus
@@ -11713,7 +11728,9 @@ dd.image-caption
 }
 .app-navbar-nav > .navitem-home > a
 {
-    padding-top: 16.92307692px;
+    font-size: 20px !important;
+
+    border: 0;
 }
 .app-navbar-nav > .navitem-home > a,
 .app-navbar-nav > .navitem-home > a:hover,
@@ -12108,12 +12125,25 @@ h3
 }
 .wrapper
 {
-    max-width: 960px;
     margin: 0 auto 0 auto;
     padding: 0;
 
+    border-radius: 4px;
     background: white;
-    box-shadow: 0 0 10px rgba(70, 70, 70, .55);
+}
+@media (min-width: 768px)
+{
+    .wrapper
+    {
+        max-width: 750px;
+    }
+}
+@media (min-width: 992px)
+{
+    .wrapper
+    {
+        max-width: 960px;
+    }
 }
 .wrapper .portalMessage
 {
