@@ -26,7 +26,7 @@
             <tal:children tal:condition="children">
                 <ul class="dropdown-menu app-megamenu"
                     tal:attributes="id python:'megamenu-' + tid">
-                    <li class="dropdown-title">
+                    <!--<li class="dropdown-title">
                         <a tal:attributes="href item/getURL">
                             <i class="fa fa-th-large"></i>
                             <span i18n:translate="">Overview </span>
@@ -36,7 +36,7 @@
                     <li class="divider"></li>
                     <li class="dropdown-header" i18n:translate="">
                         Contents
-                    </li>
+                    </li>-->
                     <tal:block tal:repeat="child children">
                         <li tal:define="childid child/normalized_id"
                             tal:attributes="class python:viewlet.isActiveItem(childid)">

@@ -1,0 +1,14 @@
+<div class="app-infobar"
+    tal:define="lang viewlet/current_lang">
+    <a tal:condition="python:lang == 'de'"
+        id="app-language-de"
+        tal:attributes="href string:${viewlet/portal_url}">
+        Language code: de</a>
+    <a tal:condition="python:lang == 'en'"
+        id="app-language-en"
+        tal:attributes="href string:${viewlet/portal_url}/en">
+        Language code: en</a>
+    <a class="app-infobar" id="app-language-navroot"
+        tal:attributes="href viewlet/language_root_url"
+        tal:content="lang" />
+</div>

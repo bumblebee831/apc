@@ -126,6 +126,13 @@
         <replace css:content-children="#portal-column-two > *"
             css:theme-children="#sidebar" />
 
+        <!-- Conditions for the language specific drop are based on
+            #app-language-de or #app-langage-en ids -->
+        <drop css:theme="#app-footer-en"
+            css:if-content="#app-language-de" />
+        <drop css:theme="#app-footer-de"
+            css:if-content="#app-language-en" />
+
     </rules>
 
 </rules>
