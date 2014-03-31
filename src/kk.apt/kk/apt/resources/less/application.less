@@ -1,0 +1,122 @@
+//
+// Application stylesheet
+// -----------------------------------------------
+
+body {
+    background: @body-bg;
+}
+
+a {
+    outline: none !important;
+}
+
+.app-toolbar + .app-brandbar {
+    margin-top: @navbar-height !important;
+}
+
+.template-theming-controlpanel {
+    padding: (@line-height-computed * 2);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: @brand-primary;
+  font-weight: bold;
+}
+
+h2 {
+    color: @gray;
+    font-size: @font-size-large;
+    border-bottom: 1px dotted @gray;
+    padding-bottom: @line-height-computed / 2;
+    line-height: @line-height-computed * 1.2;
+  }
+  h3 {
+    color: @gray;
+    font-size: @font-size-large / 1.2;
+  }
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 960px;
+}
+
+.wrapper {
+    background: white;
+    padding: 0;
+    margin: -5px auto 0 auto;
+    max-width: 960px;
+    box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
+
+    @media (min-width: @screen-md-min) {
+        background: url(../assets/img/col.gif) repeat-y top right white;
+    }
+
+    .portalMessage {
+        padding: @line-height-computed;
+    }
+
+    .app-page {
+
+        .portalMessage {
+            display: none;
+        }
+
+        .documentFirstHeading {
+            font-size: @font-size-large;
+            margin: @line-height-computed @line-height-computed 0 @line-height-computed;
+            text-transform: uppercase;
+        }
+
+        .documentDescription {
+            padding: @line-height-computed;
+        }
+
+        .documentByLine {
+            padding: @line-height-computed;
+        }
+
+        #content-core {
+            padding: @line-height-computed;
+        }
+
+        .pfg-form {
+            padding: @line-height-computed;
+        }
+
+        .image-inline {
+            border: 5px solid white;
+            border-radius: @border-radius-base;
+            box-shadow: 0 0 3px rgba(50, 50, 50, 0.75);
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    .app-sidebar {
+        padding: @line-height-computed;
+        background: @app-sidebar-bg;
+
+        @media (min-width: @screen-md-min) {
+            padding: @line-height-computed @line-height-computed @line-height-computed 0;
+        }
+
+        h3 {
+            color: white;
+        }
+    }
+}
+
+
+
+.leadImage {
+  width: 100%;
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
