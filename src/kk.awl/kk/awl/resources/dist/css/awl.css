@@ -12076,6 +12076,10 @@ a
 {
     outline: none !important;
 }
+.label:empty
+{
+    display: inline;
+}
 .app-toolbar + .app-brandbar
 {
     margin-top: 50px;
