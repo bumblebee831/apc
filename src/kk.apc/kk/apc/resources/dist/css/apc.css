@@ -12019,6 +12019,77 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     margin-left: 0 !important;
 }
+.headstyle
+{
+    margin-bottom: 11px;
+    padding: 11px;
+}
+#ExpertSearchButtons
+{
+    border: 0 solid red;
+}
+#ExpertSearchButtons label
+{
+    margin: 0;
+}
+.CriButton
+{
+    font-size: 20.8px;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 11px;
+
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    color: #c3dbe5;
+    background-color: #633;
+}
+.CriButtonContent
+{
+    margin: 11px 0;
+}
+.cCri
+{
+    width: 80%;
+    margin: 0 0 5px 0 !important;
+    padding: 11px;
+
+    cursor: pointer;
+
+    color: #c3dbe5;
+    background-color: #990d1a;
+}
+.cCri label
+{
+    display: block;
+
+    cursor: pointer;
+}
+.cCri label.active
+{
+    color: #f00;
+}
+.cCri input[type='checkbox']
+{
+    display: none;
+}
+.clear
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+    float: none;
+    clear: left;
+}
+.mmarg
+{
+    margin-bottom: 10px;
+}
 body
 {
     background: #cccaca;
