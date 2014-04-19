@@ -51,6 +51,9 @@ $(document).ready(function(){
         <div class="col-xs-12 col-lg-12">
             <div class="headstyle" i18n:translate="legend_expert_search_criteria">Expert Search Criteria</div>
         </div>
+        <div class="searchDescription" i18n:translate="description_expert_search">
+            This search form enables you to find experts by specifying one or more search criteria.
+        </div>
     </div>
 
     <div class="row">
@@ -115,16 +118,36 @@ $(document).ready(function(){
                 <br class="clear mmarg"/>
             </tal:fields>         
             <div class="expertFormControls">
-                <button class="btn btn-primary" type="submit" name="submit" i18n:translate="label_search">Search</button>
+                <button class="btn btn-primary btn-lg" type="submit" name="submit" i18n:translate="label_search">Search</button>
             </div>
-  			<p>&nbsp;</p>
-            <p class="suchtext01"><b>Anwendungshinweise:</b></p>
-			<p class="suchtext01">1. Wählen Sie eine der drei Kategorien (Branchen-, Funktions- oder Themenkompetenz) aus, über die Sie unsere Datenbank durchsuchen wollen.<br />
-                                    2. Wählen Sie eine oder mehrere der Detailkompetenzen aus (wie z.B. Einkauf oder Controlling).<br />
-                                    3. Klicken Sie auf „Experten suchen“.<br />
-                                    4. Klicken Sie in der Trefferliste auf den Kandidaten, der Sie näher interessiert, um einen Überblick seiner Kompetenzen zu erhalten.<br />
-                                    5. Klicken Sie auf „…weitere Details zu diesem Experten“ um eine verbale Beschreibung und eine Übersicht seiner Schlüsselprojekte (auch als pdf) zu erhalten.<br />
-                                    6. Wenn Sie darüber hinaus Informationen wünschen, klicken Sie bitte auf „Kontakt“ und schreiben Sie uns. Wir freuen uns Ihnen dann umgehend umfangreich zu für Sie passende Experten detailliert Auskunft zu geben.</p>
+            <br />
+  			<div class="well">
+            <h3>Anwendungshinweise:</h3>
+			    <ol>
+                    <li>Wählen Sie eine der drei Kategorien (Branchen-, 
+                        Funktions- oder Themenkompetenz) aus, über die 
+                        Sie unsere Datenbank durchsuchen wollen
+                    </li>
+                    <li>Wählen Sie eine oder mehrere der Detailkompetenzen 
+                        aus (wie z.B. Einkauf oder Controlling).
+                    </li>
+                    <li>Klicken Sie auf „Experten suchen“.
+                    </li>
+                    <li>Klicken Sie in der Trefferliste auf den Kandidaten, 
+                        der Sie näher interessiert, um einen Überblick seiner 
+                        Kompetenzen zu erhalten.
+                    </li>
+                    <li>Klicken Sie auf „…weitere Details zu diesem Experten“ 
+                        um eine verbale Beschreibung und eine Übersicht seiner 
+                        Schlüsselprojekte (auch als pdf) zu erhalten.
+                    </li>
+                    <li>Wenn Sie darüber hinaus Informationen wünschen, 
+                        klicken Sie bitte auf „Kontakt“ und schreiben Sie uns. 
+                        Wir freuen uns Ihnen dann umgehend umfangreich zu für 
+                        Sie passende Experten detailliert Auskunft zu geben.
+                    </li>
+                </ol>
+            </div>
        
         </div>
     </div>
