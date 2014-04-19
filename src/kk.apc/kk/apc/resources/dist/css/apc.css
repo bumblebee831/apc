@@ -12206,6 +12206,10 @@ dl.portlet ul.navTree .navTreeCurrentItem
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
 }
+.app-landingbox .app-landingbox-header-apc img
+{
+    margin: 0 auto;
+}
 .app-landingbox .app-landingbox-header-apt
 {
     height: 120px;
@@ -12219,6 +12223,10 @@ dl.portlet ul.navTree .navTreeCurrentItem
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
 }
+.app-landingbox .app-landingbox-header-apt img
+{
+    margin: 0 auto;
+}
 .app-landingbox .app-landingbox-header-awl
 {
     height: 120px;
@@ -12231,6 +12239,10 @@ dl.portlet ul.navTree .navTreeCurrentItem
     background-repeat: repeat-x;
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
+}
+.app-landingbox .app-landingbox-header-awl img
+{
+    margin: 0 auto;
 }
 .app-landingbox .app-landingbox-body
 {
