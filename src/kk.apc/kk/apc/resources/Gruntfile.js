@@ -259,7 +259,7 @@ module.exports = function (grunt) {
     grunt.registerTask('copy-templates', '', function () {
         grunt.file.copy('_site/index.html', 'dist/theme.html');
         grunt.file.copy('_site/signin/index.html', 'dist/signin.html');
-        // grunt.file.copy('_site/frontpage/index.html', 'dist/frontpage.html');
+        grunt.file.copy('_site/frontpage/index.html', 'dist/frontpage.html');
     });
 
     // Docs HTML validation task

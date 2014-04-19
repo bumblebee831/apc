@@ -12090,6 +12090,139 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     margin-bottom: 10px;
 }
+.app-landingbox
+{
+    padding: 22px;
+
+    border: 0 solid red;
+    background: transparent;
+}
+@media (min-width: 1200px)
+{
+    .app-landingbox
+    {
+        padding: 22px 22px 11px 22px;
+    }
+}
+.app-landingbox .app-landingbox-wrapper
+{
+    margin-bottom: 22px;
+
+    border: 0 solid #e3e4e5;
+    border-radius: 4px;
+    background: #666;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
+}
+@media (min-width: 768px)
+{
+    .app-landingbox .app-landingbox-wrapper
+    {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 992px)
+{
+    .app-landingbox .app-landingbox-wrapper
+    {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px)
+{
+    .app-landingbox .app-landingbox-wrapper
+    {
+        margin-bottom: 0;
+    }
+}
+.app-landingbox .app-landingbox-header-apc
+{
+    height: 120px;
+    padding: 22px;
+
+    border-bottom: 30px solid #633;
+    border-radius: 4px 4px 0 0;
+    background-image: -webkit-linear-gradient(top, #e8e6e7 0%, #939393 100%);
+    background-image:         linear-gradient(to bottom, #e8e6e7 0%, #939393 100%);
+    background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
+}
+.app-landingbox .app-landingbox-header-apt
+{
+    height: 120px;
+    padding: 22px;
+
+    border-bottom: 30px solid #166335;
+    border-radius: 4px 4px 0 0;
+    background-image: -webkit-linear-gradient(top, #e8e6e7 0%, #939393 100%);
+    background-image:         linear-gradient(to bottom, #e8e6e7 0%, #939393 100%);
+    background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
+}
+.app-landingbox .app-landingbox-header-awl
+{
+    height: 120px;
+    padding: 22px;
+
+    border-bottom: 30px solid #256e99;
+    border-radius: 4px 4px 0 0;
+    background-image: -webkit-linear-gradient(top, #e8e6e7 0%, #939393 100%);
+    background-image:         linear-gradient(to bottom, #e8e6e7 0%, #939393 100%);
+    background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e6e7', endColorstr='#ff939393', GradientType=0);
+}
+.app-landingbox .app-landingbox-body
+{
+    padding: 0;
+
+    color: white;
+}
+.app-landingbox .app-landingbox-body img
+{
+    width: 100%;
+}
+.app-landingbox .app-landingbox-body p
+{
+    font-size: 10.66666667px;
+
+    padding: 11px;
+}
+.app-landingbox .app-landingbox-footer
+{
+    margin-right: 11px;
+    margin-left: 11px;
+    padding-bottom: 11px;
+}
+.apc .btn-primary
+{
+    font-size: 13.33333333px;
+
+    border-color: #633;
+    background: #633;
+}
+.apt .btn-primary
+{
+    font-size: 13.33333333px;
+
+    border-color: #166335;
+    background: #166335;
+}
+.awl .btn-primary
+{
+    font-size: 13.33333333px;
+
+    border-color: #256e99;
+    background: #256e99;
+}
+.app-landingbox-bottom
+{
+    font-size: 10.66666667px;
+
+    padding: 0 22px 11px 22px;
+}
 body
 {
     background: #cccaca;
