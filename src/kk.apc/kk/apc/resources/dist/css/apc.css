@@ -12166,7 +12166,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     margin-bottom: 22px;
 
-    border: 0 solid #e3e4e5;
+    border-bottom: 10px solid #e3e4e5;
     border-radius: 4px;
     background: #666;
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .25);
@@ -12253,6 +12253,8 @@ dl.portlet ul.navTree .navTreeCurrentItem
     margin-right: 11px;
     margin-left: 11px;
     padding-bottom: 11px;
+
+    text-align: right;
 }
 .apc .btn-primary
 {
